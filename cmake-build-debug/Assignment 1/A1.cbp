@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="A1"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\Assignment 1\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/evanb/CLionProjects/CompSci30S/cmake-build-debug/Assignment 1"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/evanb/CLionProjects/CompSci30S/cmake-build-debug/Assignment 1/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/evanb/CLionProjects/CompSci30S/cmake-build-debug/Assignment 1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/evanb/CLionProjects/CompSci30S/cmake-build-debug/Assignment 1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/evanb/CLionProjects/CompSci30S/cmake-build-debug/Assignment 1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="1">
+				<Option output="C:/Users/evanb/CLionProjects/CompSci30S/cmake-build-debug/Assignment 1/1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/evanb/CLionProjects/CompSci30S/cmake-build-debug/Assignment 1"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/evanb/CLionProjects/CompSci30S/cmake-build-debug/Assignment 1/Makefile&quot;  VERBOSE=1 1"/>
+					<CompileFile command="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/evanb/CLionProjects/CompSci30S/cmake-build-debug/Assignment 1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/evanb/CLionProjects/CompSci30S/cmake-build-debug/Assignment 1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/evanb/CLionProjects/CompSci30S/cmake-build-debug/Assignment 1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="1/fast">
+				<Option output="C:/Users/evanb/CLionProjects/CompSci30S/cmake-build-debug/Assignment 1/1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/evanb/CLionProjects/CompSci30S/cmake-build-debug/Assignment 1"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/evanb/CLionProjects/CompSci30S/cmake-build-debug/Assignment 1/Makefile&quot;  VERBOSE=1 1/fast"/>
+					<CompileFile command="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/evanb/CLionProjects/CompSci30S/cmake-build-debug/Assignment 1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/evanb/CLionProjects/CompSci30S/cmake-build-debug/Assignment 1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/evanb/CLionProjects/CompSci30S/cmake-build-debug/Assignment 1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2">
+				<Option output="C:/Users/evanb/CLionProjects/CompSci30S/cmake-build-debug/Assignment 1/2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/evanb/CLionProjects/CompSci30S/cmake-build-debug/Assignment 1"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/evanb/CLionProjects/CompSci30S/cmake-build-debug/Assignment 1/Makefile&quot;  VERBOSE=1 2"/>
+					<CompileFile command="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/evanb/CLionProjects/CompSci30S/cmake-build-debug/Assignment 1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/evanb/CLionProjects/CompSci30S/cmake-build-debug/Assignment 1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/evanb/CLionProjects/CompSci30S/cmake-build-debug/Assignment 1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="2/fast">
+				<Option output="C:/Users/evanb/CLionProjects/CompSci30S/cmake-build-debug/Assignment 1/2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/evanb/CLionProjects/CompSci30S/cmake-build-debug/Assignment 1"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/evanb/CLionProjects/CompSci30S/cmake-build-debug/Assignment 1/Makefile&quot;  VERBOSE=1 2/fast"/>
+					<CompileFile command="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/evanb/CLionProjects/CompSci30S/cmake-build-debug/Assignment 1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/evanb/CLionProjects/CompSci30S/cmake-build-debug/Assignment 1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/evanb/CLionProjects/CompSci30S/cmake-build-debug/Assignment 1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="3">
+				<Option output="C:/Users/evanb/CLionProjects/CompSci30S/cmake-build-debug/Assignment 1/3.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/evanb/CLionProjects/CompSci30S/cmake-build-debug/Assignment 1"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/evanb/CLionProjects/CompSci30S/cmake-build-debug/Assignment 1/Makefile&quot;  VERBOSE=1 3"/>
+					<CompileFile command="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/evanb/CLionProjects/CompSci30S/cmake-build-debug/Assignment 1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/evanb/CLionProjects/CompSci30S/cmake-build-debug/Assignment 1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/evanb/CLionProjects/CompSci30S/cmake-build-debug/Assignment 1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="3/fast">
+				<Option output="C:/Users/evanb/CLionProjects/CompSci30S/cmake-build-debug/Assignment 1/3.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/evanb/CLionProjects/CompSci30S/cmake-build-debug/Assignment 1"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/evanb/CLionProjects/CompSci30S/cmake-build-debug/Assignment 1/Makefile&quot;  VERBOSE=1 3/fast"/>
+					<CompileFile command="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/evanb/CLionProjects/CompSci30S/cmake-build-debug/Assignment 1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/evanb/CLionProjects/CompSci30S/cmake-build-debug/Assignment 1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/evanb/CLionProjects/CompSci30S/cmake-build-debug/Assignment 1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="4">
+				<Option output="C:/Users/evanb/CLionProjects/CompSci30S/cmake-build-debug/Assignment 1/4.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/evanb/CLionProjects/CompSci30S/cmake-build-debug/Assignment 1"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/evanb/CLionProjects/CompSci30S/cmake-build-debug/Assignment 1/Makefile&quot;  VERBOSE=1 4"/>
+					<CompileFile command="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/evanb/CLionProjects/CompSci30S/cmake-build-debug/Assignment 1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/evanb/CLionProjects/CompSci30S/cmake-build-debug/Assignment 1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/evanb/CLionProjects/CompSci30S/cmake-build-debug/Assignment 1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="4/fast">
+				<Option output="C:/Users/evanb/CLionProjects/CompSci30S/cmake-build-debug/Assignment 1/4.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/evanb/CLionProjects/CompSci30S/cmake-build-debug/Assignment 1"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/evanb/CLionProjects/CompSci30S/cmake-build-debug/Assignment 1/Makefile&quot;  VERBOSE=1 4/fast"/>
+					<CompileFile command="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/evanb/CLionProjects/CompSci30S/cmake-build-debug/Assignment 1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/evanb/CLionProjects/CompSci30S/cmake-build-debug/Assignment 1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/evanb/CLionProjects/CompSci30S/cmake-build-debug/Assignment 1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="5">
+				<Option output="C:/Users/evanb/CLionProjects/CompSci30S/cmake-build-debug/Assignment 1/5.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/evanb/CLionProjects/CompSci30S/cmake-build-debug/Assignment 1"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/evanb/CLionProjects/CompSci30S/cmake-build-debug/Assignment 1/Makefile&quot;  VERBOSE=1 5"/>
+					<CompileFile command="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/evanb/CLionProjects/CompSci30S/cmake-build-debug/Assignment 1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/evanb/CLionProjects/CompSci30S/cmake-build-debug/Assignment 1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/evanb/CLionProjects/CompSci30S/cmake-build-debug/Assignment 1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="5/fast">
+				<Option output="C:/Users/evanb/CLionProjects/CompSci30S/cmake-build-debug/Assignment 1/5.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/evanb/CLionProjects/CompSci30S/cmake-build-debug/Assignment 1"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/evanb/CLionProjects/CompSci30S/cmake-build-debug/Assignment 1/Makefile&quot;  VERBOSE=1 5/fast"/>
+					<CompileFile command="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/evanb/CLionProjects/CompSci30S/cmake-build-debug/Assignment 1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/evanb/CLionProjects/CompSci30S/cmake-build-debug/Assignment 1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/evanb/CLionProjects/CompSci30S/cmake-build-debug/Assignment 1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="6">
+				<Option output="C:/Users/evanb/CLionProjects/CompSci30S/cmake-build-debug/Assignment 1/6.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/evanb/CLionProjects/CompSci30S/cmake-build-debug/Assignment 1"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/evanb/CLionProjects/CompSci30S/cmake-build-debug/Assignment 1/Makefile&quot;  VERBOSE=1 6"/>
+					<CompileFile command="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/evanb/CLionProjects/CompSci30S/cmake-build-debug/Assignment 1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/evanb/CLionProjects/CompSci30S/cmake-build-debug/Assignment 1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/evanb/CLionProjects/CompSci30S/cmake-build-debug/Assignment 1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="6/fast">
+				<Option output="C:/Users/evanb/CLionProjects/CompSci30S/cmake-build-debug/Assignment 1/6.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/evanb/CLionProjects/CompSci30S/cmake-build-debug/Assignment 1"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/evanb/CLionProjects/CompSci30S/cmake-build-debug/Assignment 1/Makefile&quot;  VERBOSE=1 6/fast"/>
+					<CompileFile command="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/evanb/CLionProjects/CompSci30S/cmake-build-debug/Assignment 1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/evanb/CLionProjects/CompSci30S/cmake-build-debug/Assignment 1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/223.7571.171/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/evanb/CLionProjects/CompSci30S/cmake-build-debug/Assignment 1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/evanb/CLionProjects/CompSci30S/Assignment 1/1.cpp">
+			<Option target="1"/>
+		</Unit>
+		<Unit filename="C:/Users/evanb/CLionProjects/CompSci30S/Assignment 1/2.cpp">
+			<Option target="2"/>
+		</Unit>
+		<Unit filename="C:/Users/evanb/CLionProjects/CompSci30S/Assignment 1/3.cpp">
+			<Option target="3"/>
+		</Unit>
+		<Unit filename="C:/Users/evanb/CLionProjects/CompSci30S/Assignment 1/4.cpp">
+			<Option target="4"/>
+		</Unit>
+		<Unit filename="C:/Users/evanb/CLionProjects/CompSci30S/Assignment 1/5.cpp">
+			<Option target="5"/>
+		</Unit>
+		<Unit filename="C:/Users/evanb/CLionProjects/CompSci30S/Assignment 1/6.cpp">
+			<Option target="6"/>
+		</Unit>
+		<Unit filename="C:/Users/evanb/CLionProjects/CompSci30S/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/evanb/CLionProjects/CompSci30S/Assignment 1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Assignment 1\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

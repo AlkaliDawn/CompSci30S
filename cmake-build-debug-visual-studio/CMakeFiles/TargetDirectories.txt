@@ -1,0 +1,10 @@
+C:/Users/evanb/CLionProjects/CompSci30S/cmake-build-debug-visual-studio/CMakeFiles/edit_cache.dir
+C:/Users/evanb/CLionProjects/CompSci30S/cmake-build-debug-visual-studio/CMakeFiles/rebuild_cache.dir
+C:/Users/evanb/CLionProjects/CompSci30S/cmake-build-debug-visual-studio/Assignment 1/CMakeFiles/1.dir
+C:/Users/evanb/CLionProjects/CompSci30S/cmake-build-debug-visual-studio/Assignment 1/CMakeFiles/2.dir
+C:/Users/evanb/CLionProjects/CompSci30S/cmake-build-debug-visual-studio/Assignment 1/CMakeFiles/3.dir
+C:/Users/evanb/CLionProjects/CompSci30S/cmake-build-debug-visual-studio/Assignment 1/CMakeFiles/4.dir
+C:/Users/evanb/CLionProjects/CompSci30S/cmake-build-debug-visual-studio/Assignment 1/CMakeFiles/5.dir
+C:/Users/evanb/CLionProjects/CompSci30S/cmake-build-debug-visual-studio/Assignment 1/CMakeFiles/6.dir
+C:/Users/evanb/CLionProjects/CompSci30S/cmake-build-debug-visual-studio/Assignment 1/CMakeFiles/edit_cache.dir
+C:/Users/evanb/CLionProjects/CompSci30S/cmake-build-debug-visual-studio/Assignment 1/CMakeFiles/rebuild_cache.dir

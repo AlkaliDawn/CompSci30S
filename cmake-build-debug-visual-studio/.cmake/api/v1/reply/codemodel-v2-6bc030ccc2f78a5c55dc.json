@@ -1,0 +1,132 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "Assignment 1",
+					"jsonFile" : "directory-Assignment 1-Debug-ffe6ae7572f345f288c6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "Assignment 1",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "CompSci30S"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "A1",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "1::@9ea6f4b8afbddf30ec6a",
+					"jsonFile" : "target-1-Debug-3a4986974e33f94616c6.json",
+					"name" : "1",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "2::@9ea6f4b8afbddf30ec6a",
+					"jsonFile" : "target-2-Debug-0cfed7fa030d73ea67e4.json",
+					"name" : "2",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "3::@9ea6f4b8afbddf30ec6a",
+					"jsonFile" : "target-3-Debug-95c69a87b06cf7a7f008.json",
+					"name" : "3",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "4::@9ea6f4b8afbddf30ec6a",
+					"jsonFile" : "target-4-Debug-77a7c104cf71f18a865d.json",
+					"name" : "4",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "5::@9ea6f4b8afbddf30ec6a",
+					"jsonFile" : "target-5-Debug-587a11999079a31f3cb9.json",
+					"name" : "5",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "6::@9ea6f4b8afbddf30ec6a",
+					"jsonFile" : "target-6-Debug-cda7780e57d6c41f374d.json",
+					"name" : "6",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/evanb/CLionProjects/CompSci30S/cmake-build-debug-visual-studio",
+		"source" : "C:/Users/evanb/CLionProjects/CompSci30S"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

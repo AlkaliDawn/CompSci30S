@@ -1,0 +1,13 @@
+file(REMOVE_RECURSE
+  "6.exe"
+  "6.exe.manifest"
+  "6.pdb"
+  "CMakeFiles/6.dir/6.cpp.obj"
+  "CMakeFiles/6.dir/6.cpp.obj.d"
+  "lib6.dll.a"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/6.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

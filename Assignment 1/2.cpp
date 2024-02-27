@@ -1,41 +1,68 @@
 #include <iostream>
 #include <conio.h>
 using namespace std;
-
-void toLower(string &str) {
-    for (char & i : str) {
-        i = (char) tolower(i);
+/**
+ *
+ * @param character
+ * @return False if input is invalid
+ *         True if input is valid
+ */
+bool validateInput(char character) {
+    if ((character < '0' || character > '9') && (character < 'a' || character > 'z')) {
+        return true;
     }
+    return false;
 }
 
+/**
+ *
+ * @param str string for validated input to be stored in
+ *
+ * Repeatedly gets input from the user until a valid string is found.
+ * Uses @a getline on cin
+ */
 void getInput(string &str) { // ascii 48 - 57, 97 - 122
-    string scrubber;
     while (true) {
-        cin >> scrubber;
-        for (char i: scrubber) {
-            if ((i < 48 || i > 57) && (i < 97 || i > 122)) {
+        getline(cin, str);
+        for (char &i: str) {
+            i = tolower(i);
+            if (validateInput(i)) {
                 cout << "Invalid Input. Please use only numbers and letters ( Not Case Sensitive )..... ";
                 continue;
             }
         }
         break;
     }
-    str = scrubber;
 }
 
-void convertNums(string &str) {
-    for (char & i: str) { // 123 - 57 = 66
-        if (!(i < 48 || i > 57)) {
-            i += 75;
+/**
+ *
+ * @param str string to have its characters converted to indexes
+ *
+ * Receives a string "@a str" by reference and converts each character to its index in the array of large letters,
+ * by subtracting a constant int based on whether each character is a letter or number
+ */
+void indexString(const string &str) {
+    for (char &i: str) {
+        if (i >= 'a' && i <= 'z') {
+            i -= 97;
+        }
+        else { // 48 - 26
+            i -= 22;
         }
     }
-    
+}
+
+void printLetters(const string &str, auto letters) {
+    for (const char& i: str) {
+        cout << letters[ i ] << "\n";
+    }
 }
 
 int main() {
-    
-    int ascii_index = 97;
-    
+
+char input;
+
     string letters[36] = {
             "   _,   \n"
             " ,&*&%; \n"
@@ -225,21 +252,26 @@ int main() {
             "8",
             "9"
     } ;
-    
+   
     string word;
     
-    getInput(word);
+    while (true) {
+        cout << "Welcome to Giant Letters!! Please enter the letters / words you would like to have BIGIFYIED: \n";
+        
+        getInput(word);
     
-    toLower(word);
+        indexString(word);
     
-    convertNums(word);
+        cout << "\n\n";
     
-    cout << "\n\n\n";
-    
-    for (char i: word) {
-        cout << letters[((int)i) - ascii_index] << "\n";
+        printLetters(word, letters);
+        
+        cout << "\nWould you like to enter another word? (Y/N) ";
+
+        input = _getche();
+
+        if (
     }
     
     getch();
-//    if (std::any_of(test_string.begin(), test_string.end(), [input](char current_char) { return current_char == input; })) {
 }

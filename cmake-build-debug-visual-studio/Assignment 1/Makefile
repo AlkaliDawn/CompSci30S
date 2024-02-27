@@ -37,19 +37,19 @@ NULL=nul
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = C:\Users\evanb\AppData\Local\JetBrains\Toolbox\apps\CLion-Nova\ch-0\241.11109\bin\cmake\win\x64\bin\cmake.exe
+CMAKE_COMMAND = "C:\Users\Evan\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe"
 
 # The command to remove a file.
-RM = C:\Users\evanb\AppData\Local\JetBrains\Toolbox\apps\CLion-Nova\ch-0\241.11109\bin\cmake\win\x64\bin\cmake.exe -E rm -f
+RM = "C:\Users\Evan\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\evanb\CLionProjects\CompSci30S
+CMAKE_SOURCE_DIR = C:\Users\Evan\CLionProjects\CompSci30S
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\evanb\CLionProjects\CompSci30S\cmake-build-debug-visual-studio
+CMAKE_BINARY_DIR = C:\Users\Evan\CLionProjects\CompSci30S\cmake-build-debug-visual-studio
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -57,7 +57,7 @@ CMAKE_BINARY_DIR = C:\Users\evanb\CLionProjects\CompSci30S\cmake-build-debug-vis
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "No interactive CMake dialog available..."
-	C:\Users\evanb\AppData\Local\JetBrains\Toolbox\apps\CLion-Nova\ch-0\241.11109\bin\cmake\win\x64\bin\cmake.exe -E echo "No interactive CMake dialog available."
+	echo >nul && "C:\Users\Evan\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -67,7 +67,7 @@ edit_cache\fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running CMake to regenerate build system..."
-	C:\Users\evanb\AppData\Local\JetBrains\Toolbox\apps\CLion-Nova\ch-0\241.11109\bin\cmake\win\x64\bin\cmake.exe --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	echo >nul && "C:\Users\Evan\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -76,18 +76,18 @@ rebuild_cache\fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd C:\Users\evanb\CLionProjects\CompSci30S\cmake-build-debug-visual-studio
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\evanb\CLionProjects\CompSci30S\cmake-build-debug-visual-studio\CMakeFiles "C:\Users\evanb\CLionProjects\CompSci30S\cmake-build-debug-visual-studio\Assignment 1\\CMakeFiles\progress.marks"
+	cd C:\Users\Evan\CLionProjects\CompSci30S\cmake-build-debug-visual-studio
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Evan\CLionProjects\CompSci30S\cmake-build-debug-visual-studio\CMakeFiles "C:\Users\Evan\CLionProjects\CompSci30S\cmake-build-debug-visual-studio\Assignment 1\\CMakeFiles\progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) "Assignment 1\all"
-	cd C:\Users\evanb\CLIONP~1\CO4D02~1\CMAKE-~2\ASSIGN~1
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\evanb\CLionProjects\CompSci30S\cmake-build-debug-visual-studio\CMakeFiles 0
+	cd C:\Users\Evan\CLIONP~1\COMPSC~3\CMAKE-~3\ASSIGN~1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Evan\CLionProjects\CompSci30S\cmake-build-debug-visual-studio\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd C:\Users\evanb\CLionProjects\CompSci30S\cmake-build-debug-visual-studio
+	cd C:\Users\Evan\CLionProjects\CompSci30S\cmake-build-debug-visual-studio
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) "Assignment 1\clean"
-	cd C:\Users\evanb\CLIONP~1\CO4D02~1\CMAKE-~2\ASSIGN~1
+	cd C:\Users\Evan\CLIONP~1\COMPSC~3\CMAKE-~3\ASSIGN~1
 .PHONY : clean
 
 # The main clean target
@@ -96,30 +96,30 @@ clean\fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd C:\Users\evanb\CLionProjects\CompSci30S\cmake-build-debug-visual-studio
+	cd C:\Users\Evan\CLionProjects\CompSci30S\cmake-build-debug-visual-studio
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) "Assignment 1\preinstall"
-	cd C:\Users\evanb\CLIONP~1\CO4D02~1\CMAKE-~2\ASSIGN~1
+	cd C:\Users\Evan\CLIONP~1\COMPSC~3\CMAKE-~3\ASSIGN~1
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall\fast:
-	cd C:\Users\evanb\CLionProjects\CompSci30S\cmake-build-debug-visual-studio
+	cd C:\Users\Evan\CLionProjects\CompSci30S\cmake-build-debug-visual-studio
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) "Assignment 1\preinstall"
-	cd C:\Users\evanb\CLIONP~1\CO4D02~1\CMAKE-~2\ASSIGN~1
+	cd C:\Users\Evan\CLIONP~1\COMPSC~3\CMAKE-~3\ASSIGN~1
 .PHONY : preinstall\fast
 
 # clear depends
 depend:
-	cd C:\Users\evanb\CLionProjects\CompSci30S\cmake-build-debug-visual-studio
+	cd C:\Users\Evan\CLionProjects\CompSci30S\cmake-build-debug-visual-studio
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
-	cd C:\Users\evanb\CLIONP~1\CO4D02~1\CMAKE-~2\ASSIGN~1
+	cd C:\Users\Evan\CLIONP~1\COMPSC~3\CMAKE-~3\ASSIGN~1
 .PHONY : depend
 
 # Convenience name for target.
 "Assignment 1\CMakeFiles\1.dir\rule":
-	cd C:\Users\evanb\CLionProjects\CompSci30S\cmake-build-debug-visual-studio
+	cd C:\Users\Evan\CLionProjects\CompSci30S\cmake-build-debug-visual-studio
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) "Assignment 1\CMakeFiles\1.dir\rule"
-	cd C:\Users\evanb\CLIONP~1\CO4D02~1\CMAKE-~2\ASSIGN~1
+	cd C:\Users\Evan\CLIONP~1\COMPSC~3\CMAKE-~3\ASSIGN~1
 .PHONY : "Assignment 1\CMakeFiles\1.dir\rule"
 
 # Convenience name for target.
@@ -128,16 +128,16 @@ depend:
 
 # fast build rule for target.
 1\fast:
-	cd C:\Users\evanb\CLionProjects\CompSci30S\cmake-build-debug-visual-studio
+	cd C:\Users\Evan\CLionProjects\CompSci30S\cmake-build-debug-visual-studio
 	$(MAKE) $(MAKESILENT) -f "Assignment 1\CMakeFiles\1.dir\build.make" /nologo -$(MAKEFLAGS) "Assignment 1\CMakeFiles\1.dir\build"
-	cd C:\Users\evanb\CLIONP~1\CO4D02~1\CMAKE-~2\ASSIGN~1
+	cd C:\Users\Evan\CLIONP~1\COMPSC~3\CMAKE-~3\ASSIGN~1
 .PHONY : 1\fast
 
 # Convenience name for target.
 "Assignment 1\CMakeFiles\2.dir\rule":
-	cd C:\Users\evanb\CLionProjects\CompSci30S\cmake-build-debug-visual-studio
+	cd C:\Users\Evan\CLionProjects\CompSci30S\cmake-build-debug-visual-studio
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) "Assignment 1\CMakeFiles\2.dir\rule"
-	cd C:\Users\evanb\CLIONP~1\CO4D02~1\CMAKE-~2\ASSIGN~1
+	cd C:\Users\Evan\CLIONP~1\COMPSC~3\CMAKE-~3\ASSIGN~1
 .PHONY : "Assignment 1\CMakeFiles\2.dir\rule"
 
 # Convenience name for target.
@@ -146,16 +146,16 @@ depend:
 
 # fast build rule for target.
 2\fast:
-	cd C:\Users\evanb\CLionProjects\CompSci30S\cmake-build-debug-visual-studio
+	cd C:\Users\Evan\CLionProjects\CompSci30S\cmake-build-debug-visual-studio
 	$(MAKE) $(MAKESILENT) -f "Assignment 1\CMakeFiles\2.dir\build.make" /nologo -$(MAKEFLAGS) "Assignment 1\CMakeFiles\2.dir\build"
-	cd C:\Users\evanb\CLIONP~1\CO4D02~1\CMAKE-~2\ASSIGN~1
+	cd C:\Users\Evan\CLIONP~1\COMPSC~3\CMAKE-~3\ASSIGN~1
 .PHONY : 2\fast
 
 # Convenience name for target.
 "Assignment 1\CMakeFiles\3.dir\rule":
-	cd C:\Users\evanb\CLionProjects\CompSci30S\cmake-build-debug-visual-studio
+	cd C:\Users\Evan\CLionProjects\CompSci30S\cmake-build-debug-visual-studio
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) "Assignment 1\CMakeFiles\3.dir\rule"
-	cd C:\Users\evanb\CLIONP~1\CO4D02~1\CMAKE-~2\ASSIGN~1
+	cd C:\Users\Evan\CLIONP~1\COMPSC~3\CMAKE-~3\ASSIGN~1
 .PHONY : "Assignment 1\CMakeFiles\3.dir\rule"
 
 # Convenience name for target.
@@ -164,16 +164,16 @@ depend:
 
 # fast build rule for target.
 3\fast:
-	cd C:\Users\evanb\CLionProjects\CompSci30S\cmake-build-debug-visual-studio
+	cd C:\Users\Evan\CLionProjects\CompSci30S\cmake-build-debug-visual-studio
 	$(MAKE) $(MAKESILENT) -f "Assignment 1\CMakeFiles\3.dir\build.make" /nologo -$(MAKEFLAGS) "Assignment 1\CMakeFiles\3.dir\build"
-	cd C:\Users\evanb\CLIONP~1\CO4D02~1\CMAKE-~2\ASSIGN~1
+	cd C:\Users\Evan\CLIONP~1\COMPSC~3\CMAKE-~3\ASSIGN~1
 .PHONY : 3\fast
 
 # Convenience name for target.
 "Assignment 1\CMakeFiles\4.dir\rule":
-	cd C:\Users\evanb\CLionProjects\CompSci30S\cmake-build-debug-visual-studio
+	cd C:\Users\Evan\CLionProjects\CompSci30S\cmake-build-debug-visual-studio
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) "Assignment 1\CMakeFiles\4.dir\rule"
-	cd C:\Users\evanb\CLIONP~1\CO4D02~1\CMAKE-~2\ASSIGN~1
+	cd C:\Users\Evan\CLIONP~1\COMPSC~3\CMAKE-~3\ASSIGN~1
 .PHONY : "Assignment 1\CMakeFiles\4.dir\rule"
 
 # Convenience name for target.
@@ -182,16 +182,16 @@ depend:
 
 # fast build rule for target.
 4\fast:
-	cd C:\Users\evanb\CLionProjects\CompSci30S\cmake-build-debug-visual-studio
+	cd C:\Users\Evan\CLionProjects\CompSci30S\cmake-build-debug-visual-studio
 	$(MAKE) $(MAKESILENT) -f "Assignment 1\CMakeFiles\4.dir\build.make" /nologo -$(MAKEFLAGS) "Assignment 1\CMakeFiles\4.dir\build"
-	cd C:\Users\evanb\CLIONP~1\CO4D02~1\CMAKE-~2\ASSIGN~1
+	cd C:\Users\Evan\CLIONP~1\COMPSC~3\CMAKE-~3\ASSIGN~1
 .PHONY : 4\fast
 
 # Convenience name for target.
 "Assignment 1\CMakeFiles\5.dir\rule":
-	cd C:\Users\evanb\CLionProjects\CompSci30S\cmake-build-debug-visual-studio
+	cd C:\Users\Evan\CLionProjects\CompSci30S\cmake-build-debug-visual-studio
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) "Assignment 1\CMakeFiles\5.dir\rule"
-	cd C:\Users\evanb\CLIONP~1\CO4D02~1\CMAKE-~2\ASSIGN~1
+	cd C:\Users\Evan\CLIONP~1\COMPSC~3\CMAKE-~3\ASSIGN~1
 .PHONY : "Assignment 1\CMakeFiles\5.dir\rule"
 
 # Convenience name for target.
@@ -200,16 +200,16 @@ depend:
 
 # fast build rule for target.
 5\fast:
-	cd C:\Users\evanb\CLionProjects\CompSci30S\cmake-build-debug-visual-studio
+	cd C:\Users\Evan\CLionProjects\CompSci30S\cmake-build-debug-visual-studio
 	$(MAKE) $(MAKESILENT) -f "Assignment 1\CMakeFiles\5.dir\build.make" /nologo -$(MAKEFLAGS) "Assignment 1\CMakeFiles\5.dir\build"
-	cd C:\Users\evanb\CLIONP~1\CO4D02~1\CMAKE-~2\ASSIGN~1
+	cd C:\Users\Evan\CLIONP~1\COMPSC~3\CMAKE-~3\ASSIGN~1
 .PHONY : 5\fast
 
 # Convenience name for target.
 "Assignment 1\CMakeFiles\6.dir\rule":
-	cd C:\Users\evanb\CLionProjects\CompSci30S\cmake-build-debug-visual-studio
+	cd C:\Users\Evan\CLionProjects\CompSci30S\cmake-build-debug-visual-studio
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) "Assignment 1\CMakeFiles\6.dir\rule"
-	cd C:\Users\evanb\CLIONP~1\CO4D02~1\CMAKE-~2\ASSIGN~1
+	cd C:\Users\Evan\CLIONP~1\COMPSC~3\CMAKE-~3\ASSIGN~1
 .PHONY : "Assignment 1\CMakeFiles\6.dir\rule"
 
 # Convenience name for target.
@@ -218,9 +218,9 @@ depend:
 
 # fast build rule for target.
 6\fast:
-	cd C:\Users\evanb\CLionProjects\CompSci30S\cmake-build-debug-visual-studio
+	cd C:\Users\Evan\CLionProjects\CompSci30S\cmake-build-debug-visual-studio
 	$(MAKE) $(MAKESILENT) -f "Assignment 1\CMakeFiles\6.dir\build.make" /nologo -$(MAKEFLAGS) "Assignment 1\CMakeFiles\6.dir\build"
-	cd C:\Users\evanb\CLIONP~1\CO4D02~1\CMAKE-~2\ASSIGN~1
+	cd C:\Users\Evan\CLIONP~1\COMPSC~3\CMAKE-~3\ASSIGN~1
 .PHONY : 6\fast
 
 1.obj: 1.cpp.obj
@@ -228,9 +228,9 @@ depend:
 
 # target to build an object file
 1.cpp.obj:
-	cd C:\Users\evanb\CLionProjects\CompSci30S\cmake-build-debug-visual-studio
+	cd C:\Users\Evan\CLionProjects\CompSci30S\cmake-build-debug-visual-studio
 	$(MAKE) $(MAKESILENT) -f "Assignment 1\CMakeFiles\1.dir\build.make" /nologo -$(MAKEFLAGS) "Assignment 1\CMakeFiles\1.dir\1.cpp.obj"
-	cd C:\Users\evanb\CLIONP~1\CO4D02~1\CMAKE-~2\ASSIGN~1
+	cd C:\Users\Evan\CLIONP~1\COMPSC~3\CMAKE-~3\ASSIGN~1
 .PHONY : 1.cpp.obj
 
 1.i: 1.cpp.i
@@ -238,9 +238,9 @@ depend:
 
 # target to preprocess a source file
 1.cpp.i:
-	cd C:\Users\evanb\CLionProjects\CompSci30S\cmake-build-debug-visual-studio
+	cd C:\Users\Evan\CLionProjects\CompSci30S\cmake-build-debug-visual-studio
 	$(MAKE) $(MAKESILENT) -f "Assignment 1\CMakeFiles\1.dir\build.make" /nologo -$(MAKEFLAGS) "Assignment 1\CMakeFiles\1.dir\1.cpp.i"
-	cd C:\Users\evanb\CLIONP~1\CO4D02~1\CMAKE-~2\ASSIGN~1
+	cd C:\Users\Evan\CLIONP~1\COMPSC~3\CMAKE-~3\ASSIGN~1
 .PHONY : 1.cpp.i
 
 1.s: 1.cpp.s
@@ -248,9 +248,9 @@ depend:
 
 # target to generate assembly for a file
 1.cpp.s:
-	cd C:\Users\evanb\CLionProjects\CompSci30S\cmake-build-debug-visual-studio
+	cd C:\Users\Evan\CLionProjects\CompSci30S\cmake-build-debug-visual-studio
 	$(MAKE) $(MAKESILENT) -f "Assignment 1\CMakeFiles\1.dir\build.make" /nologo -$(MAKEFLAGS) "Assignment 1\CMakeFiles\1.dir\1.cpp.s"
-	cd C:\Users\evanb\CLIONP~1\CO4D02~1\CMAKE-~2\ASSIGN~1
+	cd C:\Users\Evan\CLIONP~1\COMPSC~3\CMAKE-~3\ASSIGN~1
 .PHONY : 1.cpp.s
 
 2.obj: 2.cpp.obj
@@ -258,9 +258,9 @@ depend:
 
 # target to build an object file
 2.cpp.obj:
-	cd C:\Users\evanb\CLionProjects\CompSci30S\cmake-build-debug-visual-studio
+	cd C:\Users\Evan\CLionProjects\CompSci30S\cmake-build-debug-visual-studio
 	$(MAKE) $(MAKESILENT) -f "Assignment 1\CMakeFiles\2.dir\build.make" /nologo -$(MAKEFLAGS) "Assignment 1\CMakeFiles\2.dir\2.cpp.obj"
-	cd C:\Users\evanb\CLIONP~1\CO4D02~1\CMAKE-~2\ASSIGN~1
+	cd C:\Users\Evan\CLIONP~1\COMPSC~3\CMAKE-~3\ASSIGN~1
 .PHONY : 2.cpp.obj
 
 2.i: 2.cpp.i
@@ -268,9 +268,9 @@ depend:
 
 # target to preprocess a source file
 2.cpp.i:
-	cd C:\Users\evanb\CLionProjects\CompSci30S\cmake-build-debug-visual-studio
+	cd C:\Users\Evan\CLionProjects\CompSci30S\cmake-build-debug-visual-studio
 	$(MAKE) $(MAKESILENT) -f "Assignment 1\CMakeFiles\2.dir\build.make" /nologo -$(MAKEFLAGS) "Assignment 1\CMakeFiles\2.dir\2.cpp.i"
-	cd C:\Users\evanb\CLIONP~1\CO4D02~1\CMAKE-~2\ASSIGN~1
+	cd C:\Users\Evan\CLIONP~1\COMPSC~3\CMAKE-~3\ASSIGN~1
 .PHONY : 2.cpp.i
 
 2.s: 2.cpp.s
@@ -278,9 +278,9 @@ depend:
 
 # target to generate assembly for a file
 2.cpp.s:
-	cd C:\Users\evanb\CLionProjects\CompSci30S\cmake-build-debug-visual-studio
+	cd C:\Users\Evan\CLionProjects\CompSci30S\cmake-build-debug-visual-studio
 	$(MAKE) $(MAKESILENT) -f "Assignment 1\CMakeFiles\2.dir\build.make" /nologo -$(MAKEFLAGS) "Assignment 1\CMakeFiles\2.dir\2.cpp.s"
-	cd C:\Users\evanb\CLIONP~1\CO4D02~1\CMAKE-~2\ASSIGN~1
+	cd C:\Users\Evan\CLIONP~1\COMPSC~3\CMAKE-~3\ASSIGN~1
 .PHONY : 2.cpp.s
 
 3.obj: 3.cpp.obj
@@ -288,9 +288,9 @@ depend:
 
 # target to build an object file
 3.cpp.obj:
-	cd C:\Users\evanb\CLionProjects\CompSci30S\cmake-build-debug-visual-studio
+	cd C:\Users\Evan\CLionProjects\CompSci30S\cmake-build-debug-visual-studio
 	$(MAKE) $(MAKESILENT) -f "Assignment 1\CMakeFiles\3.dir\build.make" /nologo -$(MAKEFLAGS) "Assignment 1\CMakeFiles\3.dir\3.cpp.obj"
-	cd C:\Users\evanb\CLIONP~1\CO4D02~1\CMAKE-~2\ASSIGN~1
+	cd C:\Users\Evan\CLIONP~1\COMPSC~3\CMAKE-~3\ASSIGN~1
 .PHONY : 3.cpp.obj
 
 3.i: 3.cpp.i
@@ -298,9 +298,9 @@ depend:
 
 # target to preprocess a source file
 3.cpp.i:
-	cd C:\Users\evanb\CLionProjects\CompSci30S\cmake-build-debug-visual-studio
+	cd C:\Users\Evan\CLionProjects\CompSci30S\cmake-build-debug-visual-studio
 	$(MAKE) $(MAKESILENT) -f "Assignment 1\CMakeFiles\3.dir\build.make" /nologo -$(MAKEFLAGS) "Assignment 1\CMakeFiles\3.dir\3.cpp.i"
-	cd C:\Users\evanb\CLIONP~1\CO4D02~1\CMAKE-~2\ASSIGN~1
+	cd C:\Users\Evan\CLIONP~1\COMPSC~3\CMAKE-~3\ASSIGN~1
 .PHONY : 3.cpp.i
 
 3.s: 3.cpp.s
@@ -308,9 +308,9 @@ depend:
 
 # target to generate assembly for a file
 3.cpp.s:
-	cd C:\Users\evanb\CLionProjects\CompSci30S\cmake-build-debug-visual-studio
+	cd C:\Users\Evan\CLionProjects\CompSci30S\cmake-build-debug-visual-studio
 	$(MAKE) $(MAKESILENT) -f "Assignment 1\CMakeFiles\3.dir\build.make" /nologo -$(MAKEFLAGS) "Assignment 1\CMakeFiles\3.dir\3.cpp.s"
-	cd C:\Users\evanb\CLIONP~1\CO4D02~1\CMAKE-~2\ASSIGN~1
+	cd C:\Users\Evan\CLIONP~1\COMPSC~3\CMAKE-~3\ASSIGN~1
 .PHONY : 3.cpp.s
 
 4.obj: 4.cpp.obj
@@ -318,9 +318,9 @@ depend:
 
 # target to build an object file
 4.cpp.obj:
-	cd C:\Users\evanb\CLionProjects\CompSci30S\cmake-build-debug-visual-studio
+	cd C:\Users\Evan\CLionProjects\CompSci30S\cmake-build-debug-visual-studio
 	$(MAKE) $(MAKESILENT) -f "Assignment 1\CMakeFiles\4.dir\build.make" /nologo -$(MAKEFLAGS) "Assignment 1\CMakeFiles\4.dir\4.cpp.obj"
-	cd C:\Users\evanb\CLIONP~1\CO4D02~1\CMAKE-~2\ASSIGN~1
+	cd C:\Users\Evan\CLIONP~1\COMPSC~3\CMAKE-~3\ASSIGN~1
 .PHONY : 4.cpp.obj
 
 4.i: 4.cpp.i
@@ -328,9 +328,9 @@ depend:
 
 # target to preprocess a source file
 4.cpp.i:
-	cd C:\Users\evanb\CLionProjects\CompSci30S\cmake-build-debug-visual-studio
+	cd C:\Users\Evan\CLionProjects\CompSci30S\cmake-build-debug-visual-studio
 	$(MAKE) $(MAKESILENT) -f "Assignment 1\CMakeFiles\4.dir\build.make" /nologo -$(MAKEFLAGS) "Assignment 1\CMakeFiles\4.dir\4.cpp.i"
-	cd C:\Users\evanb\CLIONP~1\CO4D02~1\CMAKE-~2\ASSIGN~1
+	cd C:\Users\Evan\CLIONP~1\COMPSC~3\CMAKE-~3\ASSIGN~1
 .PHONY : 4.cpp.i
 
 4.s: 4.cpp.s
@@ -338,9 +338,9 @@ depend:
 
 # target to generate assembly for a file
 4.cpp.s:
-	cd C:\Users\evanb\CLionProjects\CompSci30S\cmake-build-debug-visual-studio
+	cd C:\Users\Evan\CLionProjects\CompSci30S\cmake-build-debug-visual-studio
 	$(MAKE) $(MAKESILENT) -f "Assignment 1\CMakeFiles\4.dir\build.make" /nologo -$(MAKEFLAGS) "Assignment 1\CMakeFiles\4.dir\4.cpp.s"
-	cd C:\Users\evanb\CLIONP~1\CO4D02~1\CMAKE-~2\ASSIGN~1
+	cd C:\Users\Evan\CLIONP~1\COMPSC~3\CMAKE-~3\ASSIGN~1
 .PHONY : 4.cpp.s
 
 5.obj: 5.cpp.obj
@@ -348,9 +348,9 @@ depend:
 
 # target to build an object file
 5.cpp.obj:
-	cd C:\Users\evanb\CLionProjects\CompSci30S\cmake-build-debug-visual-studio
+	cd C:\Users\Evan\CLionProjects\CompSci30S\cmake-build-debug-visual-studio
 	$(MAKE) $(MAKESILENT) -f "Assignment 1\CMakeFiles\5.dir\build.make" /nologo -$(MAKEFLAGS) "Assignment 1\CMakeFiles\5.dir\5.cpp.obj"
-	cd C:\Users\evanb\CLIONP~1\CO4D02~1\CMAKE-~2\ASSIGN~1
+	cd C:\Users\Evan\CLIONP~1\COMPSC~3\CMAKE-~3\ASSIGN~1
 .PHONY : 5.cpp.obj
 
 5.i: 5.cpp.i
@@ -358,9 +358,9 @@ depend:
 
 # target to preprocess a source file
 5.cpp.i:
-	cd C:\Users\evanb\CLionProjects\CompSci30S\cmake-build-debug-visual-studio
+	cd C:\Users\Evan\CLionProjects\CompSci30S\cmake-build-debug-visual-studio
 	$(MAKE) $(MAKESILENT) -f "Assignment 1\CMakeFiles\5.dir\build.make" /nologo -$(MAKEFLAGS) "Assignment 1\CMakeFiles\5.dir\5.cpp.i"
-	cd C:\Users\evanb\CLIONP~1\CO4D02~1\CMAKE-~2\ASSIGN~1
+	cd C:\Users\Evan\CLIONP~1\COMPSC~3\CMAKE-~3\ASSIGN~1
 .PHONY : 5.cpp.i
 
 5.s: 5.cpp.s
@@ -368,9 +368,9 @@ depend:
 
 # target to generate assembly for a file
 5.cpp.s:
-	cd C:\Users\evanb\CLionProjects\CompSci30S\cmake-build-debug-visual-studio
+	cd C:\Users\Evan\CLionProjects\CompSci30S\cmake-build-debug-visual-studio
 	$(MAKE) $(MAKESILENT) -f "Assignment 1\CMakeFiles\5.dir\build.make" /nologo -$(MAKEFLAGS) "Assignment 1\CMakeFiles\5.dir\5.cpp.s"
-	cd C:\Users\evanb\CLIONP~1\CO4D02~1\CMAKE-~2\ASSIGN~1
+	cd C:\Users\Evan\CLIONP~1\COMPSC~3\CMAKE-~3\ASSIGN~1
 .PHONY : 5.cpp.s
 
 6.obj: 6.cpp.obj
@@ -378,9 +378,9 @@ depend:
 
 # target to build an object file
 6.cpp.obj:
-	cd C:\Users\evanb\CLionProjects\CompSci30S\cmake-build-debug-visual-studio
+	cd C:\Users\Evan\CLionProjects\CompSci30S\cmake-build-debug-visual-studio
 	$(MAKE) $(MAKESILENT) -f "Assignment 1\CMakeFiles\6.dir\build.make" /nologo -$(MAKEFLAGS) "Assignment 1\CMakeFiles\6.dir\6.cpp.obj"
-	cd C:\Users\evanb\CLIONP~1\CO4D02~1\CMAKE-~2\ASSIGN~1
+	cd C:\Users\Evan\CLIONP~1\COMPSC~3\CMAKE-~3\ASSIGN~1
 .PHONY : 6.cpp.obj
 
 6.i: 6.cpp.i
@@ -388,9 +388,9 @@ depend:
 
 # target to preprocess a source file
 6.cpp.i:
-	cd C:\Users\evanb\CLionProjects\CompSci30S\cmake-build-debug-visual-studio
+	cd C:\Users\Evan\CLionProjects\CompSci30S\cmake-build-debug-visual-studio
 	$(MAKE) $(MAKESILENT) -f "Assignment 1\CMakeFiles\6.dir\build.make" /nologo -$(MAKEFLAGS) "Assignment 1\CMakeFiles\6.dir\6.cpp.i"
-	cd C:\Users\evanb\CLIONP~1\CO4D02~1\CMAKE-~2\ASSIGN~1
+	cd C:\Users\Evan\CLIONP~1\COMPSC~3\CMAKE-~3\ASSIGN~1
 .PHONY : 6.cpp.i
 
 6.s: 6.cpp.s
@@ -398,9 +398,9 @@ depend:
 
 # target to generate assembly for a file
 6.cpp.s:
-	cd C:\Users\evanb\CLionProjects\CompSci30S\cmake-build-debug-visual-studio
+	cd C:\Users\Evan\CLionProjects\CompSci30S\cmake-build-debug-visual-studio
 	$(MAKE) $(MAKESILENT) -f "Assignment 1\CMakeFiles\6.dir\build.make" /nologo -$(MAKEFLAGS) "Assignment 1\CMakeFiles\6.dir\6.cpp.s"
-	cd C:\Users\evanb\CLIONP~1\CO4D02~1\CMAKE-~2\ASSIGN~1
+	cd C:\Users\Evan\CLIONP~1\COMPSC~3\CMAKE-~3\ASSIGN~1
 .PHONY : 6.cpp.s
 
 # Help Target
@@ -446,8 +446,8 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd C:\Users\evanb\CLionProjects\CompSci30S\cmake-build-debug-visual-studio
+	cd C:\Users\Evan\CLionProjects\CompSci30S\cmake-build-debug-visual-studio
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
-	cd C:\Users\evanb\CLIONP~1\CO4D02~1\CMAKE-~2\ASSIGN~1
+	cd C:\Users\Evan\CLIONP~1\COMPSC~3\CMAKE-~3\ASSIGN~1
 .PHONY : cmake_check_build_system
 

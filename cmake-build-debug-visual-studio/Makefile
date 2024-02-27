@@ -37,19 +37,19 @@ NULL=nul
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = C:\Users\evanb\AppData\Local\JetBrains\Toolbox\apps\CLion-Nova\ch-0\241.11109\bin\cmake\win\x64\bin\cmake.exe
+CMAKE_COMMAND = "C:\Users\Evan\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe"
 
 # The command to remove a file.
-RM = C:\Users\evanb\AppData\Local\JetBrains\Toolbox\apps\CLion-Nova\ch-0\241.11109\bin\cmake\win\x64\bin\cmake.exe -E rm -f
+RM = "C:\Users\Evan\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\evanb\CLionProjects\CompSci30S
+CMAKE_SOURCE_DIR = C:\Users\Evan\CLionProjects\CompSci30S
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\evanb\CLionProjects\CompSci30S\cmake-build-debug-visual-studio
+CMAKE_BINARY_DIR = C:\Users\Evan\CLionProjects\CompSci30S\cmake-build-debug-visual-studio
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -57,7 +57,7 @@ CMAKE_BINARY_DIR = C:\Users\evanb\CLionProjects\CompSci30S\cmake-build-debug-vis
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "No interactive CMake dialog available..."
-	C:\Users\evanb\AppData\Local\JetBrains\Toolbox\apps\CLion-Nova\ch-0\241.11109\bin\cmake\win\x64\bin\cmake.exe -E echo "No interactive CMake dialog available."
+	echo >nul && "C:\Users\Evan\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -67,7 +67,7 @@ edit_cache\fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running CMake to regenerate build system..."
-	C:\Users\evanb\AppData\Local\JetBrains\Toolbox\apps\CLion-Nova\ch-0\241.11109\bin\cmake\win\x64\bin\cmake.exe --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	echo >nul && "C:\Users\Evan\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -76,9 +76,9 @@ rebuild_cache\fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\evanb\CLionProjects\CompSci30S\cmake-build-debug-visual-studio\CMakeFiles C:\Users\evanb\CLionProjects\CompSci30S\cmake-build-debug-visual-studio\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Evan\CLionProjects\CompSci30S\cmake-build-debug-visual-studio\CMakeFiles C:\Users\Evan\CLionProjects\CompSci30S\cmake-build-debug-visual-studio\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\evanb\CLionProjects\CompSci30S\cmake-build-debug-visual-studio\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Evan\CLionProjects\CompSci30S\cmake-build-debug-visual-studio\CMakeFiles 0
 .PHONY : all
 
 # The main clean target

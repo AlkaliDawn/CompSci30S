@@ -47,19 +47,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = C:\Users\evanb\AppData\Local\JetBrains\Toolbox\apps\CLion-Nova\ch-0\241.11109\bin\cmake\win\x64\bin\cmake.exe
+CMAKE_COMMAND = "C:\Users\Evan\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe"
 
 # The command to remove a file.
-RM = C:\Users\evanb\AppData\Local\JetBrains\Toolbox\apps\CLion-Nova\ch-0\241.11109\bin\cmake\win\x64\bin\cmake.exe -E rm -f
+RM = "C:\Users\Evan\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\evanb\CLionProjects\CompSci30S
+CMAKE_SOURCE_DIR = C:\Users\Evan\CLionProjects\CompSci30S
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\evanb\CLionProjects\CompSci30S\cmake-build-debug-mingw
+CMAKE_BINARY_DIR = C:\Users\Evan\CLionProjects\CompSci30S\cmake-build-debug-mingw
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -67,7 +67,7 @@ CMAKE_BINARY_DIR = C:\Users\evanb\CLionProjects\CompSci30S\cmake-build-debug-min
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "No interactive CMake dialog available..."
-	C:\Users\evanb\AppData\Local\JetBrains\Toolbox\apps\CLion-Nova\ch-0\241.11109\bin\cmake\win\x64\bin\cmake.exe -E echo "No interactive CMake dialog available."
+	"C:\Users\Evan\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -77,7 +77,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running CMake to regenerate build system..."
-	C:\Users\evanb\AppData\Local\JetBrains\Toolbox\apps\CLion-Nova\ch-0\241.11109\bin\cmake\win\x64\bin\cmake.exe --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"C:\Users\Evan\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -86,14 +86,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /d C:\Users\evanb\CLionProjects\CompSci30S\cmake-build-debug-mingw && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\evanb\CLionProjects\CompSci30S\cmake-build-debug-mingw\CMakeFiles "C:\Users\evanb\CLionProjects\CompSci30S\cmake-build-debug-mingw\Assignment 1\\CMakeFiles\progress.marks"
-	cd /d C:\Users\evanb\CLionProjects\CompSci30S\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 "Assignment 1/all"
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\evanb\CLionProjects\CompSci30S\cmake-build-debug-mingw\CMakeFiles 0
+	cd /d C:\Users\Evan\CLionProjects\CompSci30S\cmake-build-debug-mingw && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Evan\CLionProjects\CompSci30S\cmake-build-debug-mingw\CMakeFiles "C:\Users\Evan\CLionProjects\CompSci30S\cmake-build-debug-mingw\Assignment 1\\CMakeFiles\progress.marks"
+	cd /d C:\Users\Evan\CLionProjects\CompSci30S\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 "Assignment 1/all"
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Evan\CLionProjects\CompSci30S\cmake-build-debug-mingw\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d C:\Users\evanb\CLionProjects\CompSci30S\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 "Assignment 1/clean"
+	cd /d C:\Users\Evan\CLionProjects\CompSci30S\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 "Assignment 1/clean"
 .PHONY : clean
 
 # The main clean target
@@ -102,22 +102,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d C:\Users\evanb\CLionProjects\CompSci30S\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 "Assignment 1/preinstall"
+	cd /d C:\Users\Evan\CLionProjects\CompSci30S\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 "Assignment 1/preinstall"
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d C:\Users\evanb\CLionProjects\CompSci30S\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 "Assignment 1/preinstall"
+	cd /d C:\Users\Evan\CLionProjects\CompSci30S\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 "Assignment 1/preinstall"
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d C:\Users\evanb\CLionProjects\CompSci30S\cmake-build-debug-mingw && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d C:\Users\Evan\CLionProjects\CompSci30S\cmake-build-debug-mingw && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 Assignment\ 1/CMakeFiles/1.dir/rule:
-	cd /d C:\Users\evanb\CLionProjects\CompSci30S\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 "Assignment 1/CMakeFiles/1.dir/rule"
+	cd /d C:\Users\Evan\CLionProjects\CompSci30S\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 "Assignment 1/CMakeFiles/1.dir/rule"
 .PHONY : Assignment\ 1/CMakeFiles/1.dir/rule
 
 # Convenience name for target.
@@ -126,12 +126,12 @@ Assignment\ 1/CMakeFiles/1.dir/rule:
 
 # fast build rule for target.
 1/fast:
-	cd /d C:\Users\evanb\CLionProjects\CompSci30S\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f "Assignment 1\CMakeFiles\1.dir\build.make" "Assignment 1/CMakeFiles/1.dir/build"
+	cd /d C:\Users\Evan\CLionProjects\CompSci30S\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f "Assignment 1\CMakeFiles\1.dir\build.make" "Assignment 1/CMakeFiles/1.dir/build"
 .PHONY : 1/fast
 
 # Convenience name for target.
 Assignment\ 1/CMakeFiles/2.dir/rule:
-	cd /d C:\Users\evanb\CLionProjects\CompSci30S\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 "Assignment 1/CMakeFiles/2.dir/rule"
+	cd /d C:\Users\Evan\CLionProjects\CompSci30S\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 "Assignment 1/CMakeFiles/2.dir/rule"
 .PHONY : Assignment\ 1/CMakeFiles/2.dir/rule
 
 # Convenience name for target.
@@ -140,12 +140,12 @@ Assignment\ 1/CMakeFiles/2.dir/rule:
 
 # fast build rule for target.
 2/fast:
-	cd /d C:\Users\evanb\CLionProjects\CompSci30S\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f "Assignment 1\CMakeFiles\2.dir\build.make" "Assignment 1/CMakeFiles/2.dir/build"
+	cd /d C:\Users\Evan\CLionProjects\CompSci30S\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f "Assignment 1\CMakeFiles\2.dir\build.make" "Assignment 1/CMakeFiles/2.dir/build"
 .PHONY : 2/fast
 
 # Convenience name for target.
 Assignment\ 1/CMakeFiles/3.dir/rule:
-	cd /d C:\Users\evanb\CLionProjects\CompSci30S\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 "Assignment 1/CMakeFiles/3.dir/rule"
+	cd /d C:\Users\Evan\CLionProjects\CompSci30S\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 "Assignment 1/CMakeFiles/3.dir/rule"
 .PHONY : Assignment\ 1/CMakeFiles/3.dir/rule
 
 # Convenience name for target.
@@ -154,12 +154,12 @@ Assignment\ 1/CMakeFiles/3.dir/rule:
 
 # fast build rule for target.
 3/fast:
-	cd /d C:\Users\evanb\CLionProjects\CompSci30S\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f "Assignment 1\CMakeFiles\3.dir\build.make" "Assignment 1/CMakeFiles/3.dir/build"
+	cd /d C:\Users\Evan\CLionProjects\CompSci30S\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f "Assignment 1\CMakeFiles\3.dir\build.make" "Assignment 1/CMakeFiles/3.dir/build"
 .PHONY : 3/fast
 
 # Convenience name for target.
 Assignment\ 1/CMakeFiles/4.dir/rule:
-	cd /d C:\Users\evanb\CLionProjects\CompSci30S\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 "Assignment 1/CMakeFiles/4.dir/rule"
+	cd /d C:\Users\Evan\CLionProjects\CompSci30S\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 "Assignment 1/CMakeFiles/4.dir/rule"
 .PHONY : Assignment\ 1/CMakeFiles/4.dir/rule
 
 # Convenience name for target.
@@ -168,12 +168,12 @@ Assignment\ 1/CMakeFiles/4.dir/rule:
 
 # fast build rule for target.
 4/fast:
-	cd /d C:\Users\evanb\CLionProjects\CompSci30S\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f "Assignment 1\CMakeFiles\4.dir\build.make" "Assignment 1/CMakeFiles/4.dir/build"
+	cd /d C:\Users\Evan\CLionProjects\CompSci30S\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f "Assignment 1\CMakeFiles\4.dir\build.make" "Assignment 1/CMakeFiles/4.dir/build"
 .PHONY : 4/fast
 
 # Convenience name for target.
 Assignment\ 1/CMakeFiles/5.dir/rule:
-	cd /d C:\Users\evanb\CLionProjects\CompSci30S\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 "Assignment 1/CMakeFiles/5.dir/rule"
+	cd /d C:\Users\Evan\CLionProjects\CompSci30S\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 "Assignment 1/CMakeFiles/5.dir/rule"
 .PHONY : Assignment\ 1/CMakeFiles/5.dir/rule
 
 # Convenience name for target.
@@ -182,12 +182,12 @@ Assignment\ 1/CMakeFiles/5.dir/rule:
 
 # fast build rule for target.
 5/fast:
-	cd /d C:\Users\evanb\CLionProjects\CompSci30S\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f "Assignment 1\CMakeFiles\5.dir\build.make" "Assignment 1/CMakeFiles/5.dir/build"
+	cd /d C:\Users\Evan\CLionProjects\CompSci30S\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f "Assignment 1\CMakeFiles\5.dir\build.make" "Assignment 1/CMakeFiles/5.dir/build"
 .PHONY : 5/fast
 
 # Convenience name for target.
 Assignment\ 1/CMakeFiles/6.dir/rule:
-	cd /d C:\Users\evanb\CLionProjects\CompSci30S\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 "Assignment 1/CMakeFiles/6.dir/rule"
+	cd /d C:\Users\Evan\CLionProjects\CompSci30S\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 "Assignment 1/CMakeFiles/6.dir/rule"
 .PHONY : Assignment\ 1/CMakeFiles/6.dir/rule
 
 # Convenience name for target.
@@ -196,7 +196,7 @@ Assignment\ 1/CMakeFiles/6.dir/rule:
 
 # fast build rule for target.
 6/fast:
-	cd /d C:\Users\evanb\CLionProjects\CompSci30S\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f "Assignment 1\CMakeFiles\6.dir\build.make" "Assignment 1/CMakeFiles/6.dir/build"
+	cd /d C:\Users\Evan\CLionProjects\CompSci30S\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f "Assignment 1\CMakeFiles\6.dir\build.make" "Assignment 1/CMakeFiles/6.dir/build"
 .PHONY : 6/fast
 
 1.obj: 1.cpp.obj
@@ -204,7 +204,7 @@ Assignment\ 1/CMakeFiles/6.dir/rule:
 
 # target to build an object file
 1.cpp.obj:
-	cd /d C:\Users\evanb\CLionProjects\CompSci30S\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f "Assignment 1\CMakeFiles\1.dir\build.make" "Assignment 1/CMakeFiles/1.dir/1.cpp.obj"
+	cd /d C:\Users\Evan\CLionProjects\CompSci30S\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f "Assignment 1\CMakeFiles\1.dir\build.make" "Assignment 1/CMakeFiles/1.dir/1.cpp.obj"
 .PHONY : 1.cpp.obj
 
 1.i: 1.cpp.i
@@ -212,7 +212,7 @@ Assignment\ 1/CMakeFiles/6.dir/rule:
 
 # target to preprocess a source file
 1.cpp.i:
-	cd /d C:\Users\evanb\CLionProjects\CompSci30S\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f "Assignment 1\CMakeFiles\1.dir\build.make" "Assignment 1/CMakeFiles/1.dir/1.cpp.i"
+	cd /d C:\Users\Evan\CLionProjects\CompSci30S\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f "Assignment 1\CMakeFiles\1.dir\build.make" "Assignment 1/CMakeFiles/1.dir/1.cpp.i"
 .PHONY : 1.cpp.i
 
 1.s: 1.cpp.s
@@ -220,7 +220,7 @@ Assignment\ 1/CMakeFiles/6.dir/rule:
 
 # target to generate assembly for a file
 1.cpp.s:
-	cd /d C:\Users\evanb\CLionProjects\CompSci30S\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f "Assignment 1\CMakeFiles\1.dir\build.make" "Assignment 1/CMakeFiles/1.dir/1.cpp.s"
+	cd /d C:\Users\Evan\CLionProjects\CompSci30S\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f "Assignment 1\CMakeFiles\1.dir\build.make" "Assignment 1/CMakeFiles/1.dir/1.cpp.s"
 .PHONY : 1.cpp.s
 
 2.obj: 2.cpp.obj
@@ -228,7 +228,7 @@ Assignment\ 1/CMakeFiles/6.dir/rule:
 
 # target to build an object file
 2.cpp.obj:
-	cd /d C:\Users\evanb\CLionProjects\CompSci30S\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f "Assignment 1\CMakeFiles\2.dir\build.make" "Assignment 1/CMakeFiles/2.dir/2.cpp.obj"
+	cd /d C:\Users\Evan\CLionProjects\CompSci30S\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f "Assignment 1\CMakeFiles\2.dir\build.make" "Assignment 1/CMakeFiles/2.dir/2.cpp.obj"
 .PHONY : 2.cpp.obj
 
 2.i: 2.cpp.i
@@ -236,7 +236,7 @@ Assignment\ 1/CMakeFiles/6.dir/rule:
 
 # target to preprocess a source file
 2.cpp.i:
-	cd /d C:\Users\evanb\CLionProjects\CompSci30S\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f "Assignment 1\CMakeFiles\2.dir\build.make" "Assignment 1/CMakeFiles/2.dir/2.cpp.i"
+	cd /d C:\Users\Evan\CLionProjects\CompSci30S\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f "Assignment 1\CMakeFiles\2.dir\build.make" "Assignment 1/CMakeFiles/2.dir/2.cpp.i"
 .PHONY : 2.cpp.i
 
 2.s: 2.cpp.s
@@ -244,7 +244,7 @@ Assignment\ 1/CMakeFiles/6.dir/rule:
 
 # target to generate assembly for a file
 2.cpp.s:
-	cd /d C:\Users\evanb\CLionProjects\CompSci30S\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f "Assignment 1\CMakeFiles\2.dir\build.make" "Assignment 1/CMakeFiles/2.dir/2.cpp.s"
+	cd /d C:\Users\Evan\CLionProjects\CompSci30S\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f "Assignment 1\CMakeFiles\2.dir\build.make" "Assignment 1/CMakeFiles/2.dir/2.cpp.s"
 .PHONY : 2.cpp.s
 
 3.obj: 3.cpp.obj
@@ -252,7 +252,7 @@ Assignment\ 1/CMakeFiles/6.dir/rule:
 
 # target to build an object file
 3.cpp.obj:
-	cd /d C:\Users\evanb\CLionProjects\CompSci30S\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f "Assignment 1\CMakeFiles\3.dir\build.make" "Assignment 1/CMakeFiles/3.dir/3.cpp.obj"
+	cd /d C:\Users\Evan\CLionProjects\CompSci30S\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f "Assignment 1\CMakeFiles\3.dir\build.make" "Assignment 1/CMakeFiles/3.dir/3.cpp.obj"
 .PHONY : 3.cpp.obj
 
 3.i: 3.cpp.i
@@ -260,7 +260,7 @@ Assignment\ 1/CMakeFiles/6.dir/rule:
 
 # target to preprocess a source file
 3.cpp.i:
-	cd /d C:\Users\evanb\CLionProjects\CompSci30S\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f "Assignment 1\CMakeFiles\3.dir\build.make" "Assignment 1/CMakeFiles/3.dir/3.cpp.i"
+	cd /d C:\Users\Evan\CLionProjects\CompSci30S\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f "Assignment 1\CMakeFiles\3.dir\build.make" "Assignment 1/CMakeFiles/3.dir/3.cpp.i"
 .PHONY : 3.cpp.i
 
 3.s: 3.cpp.s
@@ -268,7 +268,7 @@ Assignment\ 1/CMakeFiles/6.dir/rule:
 
 # target to generate assembly for a file
 3.cpp.s:
-	cd /d C:\Users\evanb\CLionProjects\CompSci30S\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f "Assignment 1\CMakeFiles\3.dir\build.make" "Assignment 1/CMakeFiles/3.dir/3.cpp.s"
+	cd /d C:\Users\Evan\CLionProjects\CompSci30S\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f "Assignment 1\CMakeFiles\3.dir\build.make" "Assignment 1/CMakeFiles/3.dir/3.cpp.s"
 .PHONY : 3.cpp.s
 
 4.obj: 4.cpp.obj
@@ -276,7 +276,7 @@ Assignment\ 1/CMakeFiles/6.dir/rule:
 
 # target to build an object file
 4.cpp.obj:
-	cd /d C:\Users\evanb\CLionProjects\CompSci30S\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f "Assignment 1\CMakeFiles\4.dir\build.make" "Assignment 1/CMakeFiles/4.dir/4.cpp.obj"
+	cd /d C:\Users\Evan\CLionProjects\CompSci30S\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f "Assignment 1\CMakeFiles\4.dir\build.make" "Assignment 1/CMakeFiles/4.dir/4.cpp.obj"
 .PHONY : 4.cpp.obj
 
 4.i: 4.cpp.i
@@ -284,7 +284,7 @@ Assignment\ 1/CMakeFiles/6.dir/rule:
 
 # target to preprocess a source file
 4.cpp.i:
-	cd /d C:\Users\evanb\CLionProjects\CompSci30S\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f "Assignment 1\CMakeFiles\4.dir\build.make" "Assignment 1/CMakeFiles/4.dir/4.cpp.i"
+	cd /d C:\Users\Evan\CLionProjects\CompSci30S\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f "Assignment 1\CMakeFiles\4.dir\build.make" "Assignment 1/CMakeFiles/4.dir/4.cpp.i"
 .PHONY : 4.cpp.i
 
 4.s: 4.cpp.s
@@ -292,7 +292,7 @@ Assignment\ 1/CMakeFiles/6.dir/rule:
 
 # target to generate assembly for a file
 4.cpp.s:
-	cd /d C:\Users\evanb\CLionProjects\CompSci30S\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f "Assignment 1\CMakeFiles\4.dir\build.make" "Assignment 1/CMakeFiles/4.dir/4.cpp.s"
+	cd /d C:\Users\Evan\CLionProjects\CompSci30S\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f "Assignment 1\CMakeFiles\4.dir\build.make" "Assignment 1/CMakeFiles/4.dir/4.cpp.s"
 .PHONY : 4.cpp.s
 
 5.obj: 5.cpp.obj
@@ -300,7 +300,7 @@ Assignment\ 1/CMakeFiles/6.dir/rule:
 
 # target to build an object file
 5.cpp.obj:
-	cd /d C:\Users\evanb\CLionProjects\CompSci30S\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f "Assignment 1\CMakeFiles\5.dir\build.make" "Assignment 1/CMakeFiles/5.dir/5.cpp.obj"
+	cd /d C:\Users\Evan\CLionProjects\CompSci30S\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f "Assignment 1\CMakeFiles\5.dir\build.make" "Assignment 1/CMakeFiles/5.dir/5.cpp.obj"
 .PHONY : 5.cpp.obj
 
 5.i: 5.cpp.i
@@ -308,7 +308,7 @@ Assignment\ 1/CMakeFiles/6.dir/rule:
 
 # target to preprocess a source file
 5.cpp.i:
-	cd /d C:\Users\evanb\CLionProjects\CompSci30S\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f "Assignment 1\CMakeFiles\5.dir\build.make" "Assignment 1/CMakeFiles/5.dir/5.cpp.i"
+	cd /d C:\Users\Evan\CLionProjects\CompSci30S\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f "Assignment 1\CMakeFiles\5.dir\build.make" "Assignment 1/CMakeFiles/5.dir/5.cpp.i"
 .PHONY : 5.cpp.i
 
 5.s: 5.cpp.s
@@ -316,7 +316,7 @@ Assignment\ 1/CMakeFiles/6.dir/rule:
 
 # target to generate assembly for a file
 5.cpp.s:
-	cd /d C:\Users\evanb\CLionProjects\CompSci30S\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f "Assignment 1\CMakeFiles\5.dir\build.make" "Assignment 1/CMakeFiles/5.dir/5.cpp.s"
+	cd /d C:\Users\Evan\CLionProjects\CompSci30S\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f "Assignment 1\CMakeFiles\5.dir\build.make" "Assignment 1/CMakeFiles/5.dir/5.cpp.s"
 .PHONY : 5.cpp.s
 
 6.obj: 6.cpp.obj
@@ -324,7 +324,7 @@ Assignment\ 1/CMakeFiles/6.dir/rule:
 
 # target to build an object file
 6.cpp.obj:
-	cd /d C:\Users\evanb\CLionProjects\CompSci30S\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f "Assignment 1\CMakeFiles\6.dir\build.make" "Assignment 1/CMakeFiles/6.dir/6.cpp.obj"
+	cd /d C:\Users\Evan\CLionProjects\CompSci30S\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f "Assignment 1\CMakeFiles\6.dir\build.make" "Assignment 1/CMakeFiles/6.dir/6.cpp.obj"
 .PHONY : 6.cpp.obj
 
 6.i: 6.cpp.i
@@ -332,7 +332,7 @@ Assignment\ 1/CMakeFiles/6.dir/rule:
 
 # target to preprocess a source file
 6.cpp.i:
-	cd /d C:\Users\evanb\CLionProjects\CompSci30S\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f "Assignment 1\CMakeFiles\6.dir\build.make" "Assignment 1/CMakeFiles/6.dir/6.cpp.i"
+	cd /d C:\Users\Evan\CLionProjects\CompSci30S\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f "Assignment 1\CMakeFiles\6.dir\build.make" "Assignment 1/CMakeFiles/6.dir/6.cpp.i"
 .PHONY : 6.cpp.i
 
 6.s: 6.cpp.s
@@ -340,7 +340,7 @@ Assignment\ 1/CMakeFiles/6.dir/rule:
 
 # target to generate assembly for a file
 6.cpp.s:
-	cd /d C:\Users\evanb\CLionProjects\CompSci30S\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f "Assignment 1\CMakeFiles\6.dir\build.make" "Assignment 1/CMakeFiles/6.dir/6.cpp.s"
+	cd /d C:\Users\Evan\CLionProjects\CompSci30S\cmake-build-debug-mingw && $(MAKE) $(MAKESILENT) -f "Assignment 1\CMakeFiles\6.dir\build.make" "Assignment 1/CMakeFiles/6.dir/6.cpp.s"
 .PHONY : 6.cpp.s
 
 # Help Target
@@ -386,6 +386,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d C:\Users\evanb\CLionProjects\CompSci30S\cmake-build-debug-mingw && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d C:\Users\Evan\CLionProjects\CompSci30S\cmake-build-debug-mingw && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

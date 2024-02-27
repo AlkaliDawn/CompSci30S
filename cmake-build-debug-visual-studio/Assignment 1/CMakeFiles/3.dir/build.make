@@ -33,19 +33,19 @@ NULL=nul
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = C:\Users\evanb\AppData\Local\JetBrains\Toolbox\apps\CLion-Nova\ch-0\241.11109\bin\cmake\win\x64\bin\cmake.exe
+CMAKE_COMMAND = "C:\Users\Evan\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe"
 
 # The command to remove a file.
-RM = C:\Users\evanb\AppData\Local\JetBrains\Toolbox\apps\CLion-Nova\ch-0\241.11109\bin\cmake\win\x64\bin\cmake.exe -E rm -f
+RM = "C:\Users\Evan\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\evanb\CLionProjects\CompSci30S
+CMAKE_SOURCE_DIR = C:\Users\Evan\CLionProjects\CompSci30S
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\evanb\CLionProjects\CompSci30S\cmake-build-debug-visual-studio
+CMAKE_BINARY_DIR = C:\Users\Evan\CLionProjects\CompSci30S\cmake-build-debug-visual-studio
 
 # Include any dependencies generated for this target.
 include "Assignment 1\CMakeFiles\3.dir\depend.make"
@@ -59,30 +59,30 @@ include "Assignment 1\CMakeFiles\3.dir\progress.make"
 include "Assignment 1\CMakeFiles\3.dir\flags.make"
 
 "Assignment 1\CMakeFiles\3.dir\3.cpp.obj": "Assignment 1\CMakeFiles\3.dir\flags.make"
-"Assignment 1\CMakeFiles\3.dir\3.cpp.obj": "C:\Users\evanb\CLionProjects\CompSci30S\Assignment 1\3.cpp"
+"Assignment 1\CMakeFiles\3.dir\3.cpp.obj": "C:\Users\Evan\CLionProjects\CompSci30S\Assignment 1\3.cpp"
 "Assignment 1\CMakeFiles\3.dir\3.cpp.obj": "Assignment 1\CMakeFiles\3.dir\compiler_depend.ts"
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\evanb\CLionProjects\CompSci30S\cmake-build-debug-visual-studio\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Assignment 1/CMakeFiles/3.dir/3.cpp.obj"
-	cd C:\Users\evanb\CLIONP~1\CO4D02~1\CMAKE-~2\ASSIGN~1
-	$(CMAKE_COMMAND) -E cmake_cl_compile_depends --dep-file=CMakeFiles\3.dir\3.cpp.obj.d --working-dir="C:\Users\evanb\CLionProjects\CompSci30S\cmake-build-debug-visual-studio\Assignment 1" --filter-prefix="Note: including file: " -- C:\PROGRA~1\MIB055~1\2022\COMMUN~1\VC\Tools\MSVC\1430~1.307\bin\Hostx64\x64\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /showIncludes /FoCMakeFiles\3.dir\3.cpp.obj /FdCMakeFiles\3.dir\ /FS -c "C:\Users\evanb\CLionProjects\CompSci30S\Assignment 1\3.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Evan\CLionProjects\CompSci30S\cmake-build-debug-visual-studio\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Assignment 1/CMakeFiles/3.dir/3.cpp.obj"
+	cd C:\Users\Evan\CLIONP~1\COMPSC~3\CMAKE-~3\ASSIGN~1
+	$(CMAKE_COMMAND) -E cmake_cl_compile_depends --dep-file=CMakeFiles\3.dir\3.cpp.obj.d --working-dir="C:\Users\Evan\CLionProjects\CompSci30S\cmake-build-debug-visual-studio\Assignment 1" --filter-prefix="Note: including file: " -- C:\PROGRA~1\MIB055~1\2022\COMMUN~1\VC\Tools\MSVC\1431~1.311\bin\Hostx64\x64\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /showIncludes /FoCMakeFiles\3.dir\3.cpp.obj /FdCMakeFiles\3.dir\ /FS -c "C:\Users\Evan\CLionProjects\CompSci30S\Assignment 1\3.cpp"
 <<
-	cd C:\Users\evanb\CLionProjects\CompSci30S\cmake-build-debug-visual-studio
+	cd C:\Users\Evan\CLionProjects\CompSci30S\cmake-build-debug-visual-studio
 
 "Assignment 1\CMakeFiles\3.dir\3.cpp.i": cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/3.dir/3.cpp.i"
-	cd C:\Users\evanb\CLIONP~1\CO4D02~1\CMAKE-~2\ASSIGN~1
-	C:\PROGRA~1\MIB055~1\2022\COMMUN~1\VC\Tools\MSVC\1430~1.307\bin\Hostx64\x64\cl.exe > CMakeFiles\3.dir\3.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\evanb\CLionProjects\CompSci30S\Assignment 1\3.cpp"
+	cd C:\Users\Evan\CLIONP~1\COMPSC~3\CMAKE-~3\ASSIGN~1
+	C:\PROGRA~1\MIB055~1\2022\COMMUN~1\VC\Tools\MSVC\1431~1.311\bin\Hostx64\x64\cl.exe > CMakeFiles\3.dir\3.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Evan\CLionProjects\CompSci30S\Assignment 1\3.cpp"
 <<
-	cd C:\Users\evanb\CLionProjects\CompSci30S\cmake-build-debug-visual-studio
+	cd C:\Users\Evan\CLionProjects\CompSci30S\cmake-build-debug-visual-studio
 
 "Assignment 1\CMakeFiles\3.dir\3.cpp.s": cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/3.dir/3.cpp.s"
-	cd C:\Users\evanb\CLIONP~1\CO4D02~1\CMAKE-~2\ASSIGN~1
-	C:\PROGRA~1\MIB055~1\2022\COMMUN~1\VC\Tools\MSVC\1430~1.307\bin\Hostx64\x64\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\3.dir\3.cpp.s /c "C:\Users\evanb\CLionProjects\CompSci30S\Assignment 1\3.cpp"
+	cd C:\Users\Evan\CLIONP~1\COMPSC~3\CMAKE-~3\ASSIGN~1
+	C:\PROGRA~1\MIB055~1\2022\COMMUN~1\VC\Tools\MSVC\1431~1.311\bin\Hostx64\x64\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\3.dir\3.cpp.s /c "C:\Users\Evan\CLionProjects\CompSci30S\Assignment 1\3.cpp"
 <<
-	cd C:\Users\evanb\CLionProjects\CompSci30S\cmake-build-debug-visual-studio
+	cd C:\Users\Evan\CLionProjects\CompSci30S\cmake-build-debug-visual-studio
 
 # Object files for target 3
 3_OBJECTS = \
@@ -94,24 +94,24 @@ include "Assignment 1\CMakeFiles\3.dir\flags.make"
 "Assignment 1\3.exe": "Assignment 1\CMakeFiles\3.dir\3.cpp.obj"
 "Assignment 1\3.exe": "Assignment 1\CMakeFiles\3.dir\build.make"
 "Assignment 1\3.exe": "Assignment 1\CMakeFiles\3.dir\objects1.rsp"
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\evanb\CLionProjects\CompSci30S\cmake-build-debug-visual-studio\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable 3.exe"
-	cd C:\Users\evanb\CLIONP~1\CO4D02~1\CMAKE-~2\ASSIGN~1
-	C:\Users\evanb\AppData\Local\JetBrains\Toolbox\apps\CLion-Nova\ch-0\241.11109\bin\cmake\win\x64\bin\cmake.exe -E vs_link_exe --intdir=CMakeFiles\3.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100226~1.0\x64\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100226~1.0\x64\mt.exe --manifests -- C:\PROGRA~1\MIB055~1\2022\COMMUN~1\VC\Tools\MSVC\1430~1.307\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\3.dir\objects1.rsp @<<
- /out:3.exe /implib:3.lib /pdb:"C:\Users\evanb\CLionProjects\CompSci30S\cmake-build-debug-visual-studio\Assignment 1\3.pdb" /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\Evan\CLionProjects\CompSci30S\cmake-build-debug-visual-studio\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable 3.exe"
+	cd C:\Users\Evan\CLIONP~1\COMPSC~3\CMAKE-~3\ASSIGN~1
+	"C:\Users\Evan\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\3.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100220~1.0\x64\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100220~1.0\x64\mt.exe --manifests -- C:\PROGRA~1\MIB055~1\2022\COMMUN~1\VC\Tools\MSVC\1431~1.311\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\3.dir\objects1.rsp @<<
+ /out:3.exe /implib:3.lib /pdb:"C:\Users\Evan\CLionProjects\CompSci30S\cmake-build-debug-visual-studio\Assignment 1\3.pdb" /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<
-	cd C:\Users\evanb\CLionProjects\CompSci30S\cmake-build-debug-visual-studio
+	cd C:\Users\Evan\CLionProjects\CompSci30S\cmake-build-debug-visual-studio
 
 # Rule to build all files generated by this target.
 "Assignment 1\CMakeFiles\3.dir\build": "Assignment 1\3.exe"
 .PHONY : "Assignment 1\CMakeFiles\3.dir\build"
 
 "Assignment 1\CMakeFiles\3.dir\clean":
-	cd C:\Users\evanb\CLIONP~1\CO4D02~1\CMAKE-~2\ASSIGN~1
+	cd C:\Users\Evan\CLIONP~1\COMPSC~3\CMAKE-~3\ASSIGN~1
 	$(CMAKE_COMMAND) -P CMakeFiles\3.dir\cmake_clean.cmake
-	cd C:\Users\evanb\CLionProjects\CompSci30S\cmake-build-debug-visual-studio
+	cd C:\Users\Evan\CLionProjects\CompSci30S\cmake-build-debug-visual-studio
 .PHONY : "Assignment 1\CMakeFiles\3.dir\clean"
 
 "Assignment 1\CMakeFiles\3.dir\depend":
-	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" C:\Users\evanb\CLionProjects\CompSci30S "C:\Users\evanb\CLionProjects\CompSci30S\Assignment 1" C:\Users\evanb\CLionProjects\CompSci30S\cmake-build-debug-visual-studio "C:\Users\evanb\CLionProjects\CompSci30S\cmake-build-debug-visual-studio\Assignment 1" "C:\Users\evanb\CLionProjects\CompSci30S\cmake-build-debug-visual-studio\Assignment 1\CMakeFiles\3.dir\DependInfo.cmake" "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" C:\Users\Evan\CLionProjects\CompSci30S "C:\Users\Evan\CLionProjects\CompSci30S\Assignment 1" C:\Users\Evan\CLionProjects\CompSci30S\cmake-build-debug-visual-studio "C:\Users\Evan\CLionProjects\CompSci30S\cmake-build-debug-visual-studio\Assignment 1" "C:\Users\Evan\CLionProjects\CompSci30S\cmake-build-debug-visual-studio\Assignment 1\CMakeFiles\3.dir\DependInfo.cmake" "--color=$(COLOR)"
 .PHONY : "Assignment 1\CMakeFiles\3.dir\depend"
 

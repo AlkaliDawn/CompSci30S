@@ -43,19 +43,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = C:\Users\evanb\AppData\Local\JetBrains\Toolbox\apps\CLion-Nova\ch-0\241.11109\bin\cmake\win\x64\bin\cmake.exe
+CMAKE_COMMAND = "C:\Users\Evan\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe"
 
 # The command to remove a file.
-RM = C:\Users\evanb\AppData\Local\JetBrains\Toolbox\apps\CLion-Nova\ch-0\241.11109\bin\cmake\win\x64\bin\cmake.exe -E rm -f
+RM = "C:\Users\Evan\AppData\Local\Programs\CLion Nova\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\evanb\CLionProjects\CompSci30S
+CMAKE_SOURCE_DIR = C:\Users\Evan\CLionProjects\CompSci30S
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\evanb\CLionProjects\CompSci30S\cmake-build-debug-mingw
+CMAKE_BINARY_DIR = C:\Users\Evan\CLionProjects\CompSci30S\cmake-build-debug-mingw
 
 # Include any dependencies generated for this target.
 include Assignment\ 1/CMakeFiles/3.dir/depend.make
@@ -69,18 +69,18 @@ include Assignment\ 1/CMakeFiles/3.dir/progress.make
 include Assignment\ 1/CMakeFiles/3.dir/flags.make
 
 Assignment\ 1/CMakeFiles/3.dir/3.cpp.obj: Assignment\ 1/CMakeFiles/3.dir/flags.make
-Assignment\ 1/CMakeFiles/3.dir/3.cpp.obj: C:/Users/evanb/CLionProjects/CompSci30S/Assignment\ 1/3.cpp
+Assignment\ 1/CMakeFiles/3.dir/3.cpp.obj: C:/Users/Evan/CLionProjects/CompSci30S/Assignment\ 1/3.cpp
 Assignment\ 1/CMakeFiles/3.dir/3.cpp.obj: Assignment\ 1/CMakeFiles/3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\evanb\CLionProjects\CompSci30S\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Assignment 1/CMakeFiles/3.dir/3.cpp.obj"
-	cd /d C:\Users\evanb\CLIONP~1\CO4D02~1\CMAKE-~3\ASSIGN~1 && C:\Users\evanb\AppData\Local\JetBrains\Toolbox\apps\CLion-Nova\ch-0\241.11109\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT "Assignment\ 1/CMakeFiles/3.dir/3.cpp.obj" -MF CMakeFiles\3.dir\3.cpp.obj.d -o CMakeFiles\3.dir\3.cpp.obj -c "C:\Users\evanb\CLionProjects\CompSci30S\Assignment 1\3.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Evan\CLionProjects\CompSci30S\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Assignment 1/CMakeFiles/3.dir/3.cpp.obj"
+	cd /d C:\Users\Evan\CLIONP~1\COMPSC~3\CMAKE-~2\ASSIGN~1 && C:\Users\Evan\AppData\Local\Programs\CLIONN~1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT "Assignment\ 1/CMakeFiles/3.dir/3.cpp.obj" -MF CMakeFiles\3.dir\3.cpp.obj.d -o CMakeFiles\3.dir\3.cpp.obj -c "C:\Users\Evan\CLionProjects\CompSci30S\Assignment 1\3.cpp"
 
 Assignment\ 1/CMakeFiles/3.dir/3.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/3.dir/3.cpp.i"
-	cd /d C:\Users\evanb\CLIONP~1\CO4D02~1\CMAKE-~3\ASSIGN~1 && C:\Users\evanb\AppData\Local\JetBrains\Toolbox\apps\CLion-Nova\ch-0\241.11109\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\evanb\CLionProjects\CompSci30S\Assignment 1\3.cpp" > CMakeFiles\3.dir\3.cpp.i
+	cd /d C:\Users\Evan\CLIONP~1\COMPSC~3\CMAKE-~2\ASSIGN~1 && C:\Users\Evan\AppData\Local\Programs\CLIONN~1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Evan\CLionProjects\CompSci30S\Assignment 1\3.cpp" > CMakeFiles\3.dir\3.cpp.i
 
 Assignment\ 1/CMakeFiles/3.dir/3.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/3.dir/3.cpp.s"
-	cd /d C:\Users\evanb\CLIONP~1\CO4D02~1\CMAKE-~3\ASSIGN~1 && C:\Users\evanb\AppData\Local\JetBrains\Toolbox\apps\CLion-Nova\ch-0\241.11109\bin\mingw\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\evanb\CLionProjects\CompSci30S\Assignment 1\3.cpp" -o CMakeFiles\3.dir\3.cpp.s
+	cd /d C:\Users\Evan\CLIONP~1\COMPSC~3\CMAKE-~2\ASSIGN~1 && C:\Users\Evan\AppData\Local\Programs\CLIONN~1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Evan\CLionProjects\CompSci30S\Assignment 1\3.cpp" -o CMakeFiles\3.dir\3.cpp.s
 
 # Object files for target 3
 3_OBJECTS = \
@@ -94,18 +94,18 @@ Assignment\ 1/3.exe: Assignment\ 1/CMakeFiles/3.dir/build.make
 Assignment\ 1/3.exe: Assignment\ 1/CMakeFiles/3.dir/linkLibs.rsp
 Assignment\ 1/3.exe: Assignment\ 1/CMakeFiles/3.dir/objects1.rsp
 Assignment\ 1/3.exe: Assignment\ 1/CMakeFiles/3.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\evanb\CLionProjects\CompSci30S\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable 3.exe"
-	cd /d C:\Users\evanb\CLIONP~1\CO4D02~1\CMAKE-~3\ASSIGN~1 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\3.dir\link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\Evan\CLionProjects\CompSci30S\cmake-build-debug-mingw\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable 3.exe"
+	cd /d C:\Users\Evan\CLIONP~1\COMPSC~3\CMAKE-~2\ASSIGN~1 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\3.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 Assignment\ 1/CMakeFiles/3.dir/build: Assignment\ 1/3.exe
 .PHONY : Assignment\ 1/CMakeFiles/3.dir/build
 
 Assignment\ 1/CMakeFiles/3.dir/clean:
-	cd /d C:\Users\evanb\CLIONP~1\CO4D02~1\CMAKE-~3\ASSIGN~1 && $(CMAKE_COMMAND) -P CMakeFiles\3.dir\cmake_clean.cmake
+	cd /d C:\Users\Evan\CLIONP~1\COMPSC~3\CMAKE-~2\ASSIGN~1 && $(CMAKE_COMMAND) -P CMakeFiles\3.dir\cmake_clean.cmake
 .PHONY : Assignment\ 1/CMakeFiles/3.dir/clean
 
 Assignment\ 1/CMakeFiles/3.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\evanb\CLionProjects\CompSci30S "C:\Users\evanb\CLionProjects\CompSci30S\Assignment 1" C:\Users\evanb\CLionProjects\CompSci30S\cmake-build-debug-mingw "C:\Users\evanb\CLionProjects\CompSci30S\cmake-build-debug-mingw\Assignment 1" "C:\Users\evanb\CLionProjects\CompSci30S\cmake-build-debug-mingw\Assignment 1\CMakeFiles\3.dir\DependInfo.cmake" "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Evan\CLionProjects\CompSci30S "C:\Users\Evan\CLionProjects\CompSci30S\Assignment 1" C:\Users\Evan\CLionProjects\CompSci30S\cmake-build-debug-mingw "C:\Users\Evan\CLionProjects\CompSci30S\cmake-build-debug-mingw\Assignment 1" "C:\Users\Evan\CLionProjects\CompSci30S\cmake-build-debug-mingw\Assignment 1\CMakeFiles\3.dir\DependInfo.cmake" "--color=$(COLOR)"
 .PHONY : Assignment\ 1/CMakeFiles/3.dir/depend
 

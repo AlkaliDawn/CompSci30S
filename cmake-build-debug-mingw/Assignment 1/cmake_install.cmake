@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/evanb/CLionProjects/CompSci30S/Assignment 1
+# Install script for directory: C:/Users/Evan/CLionProjects/CompSci30S/Assignment 1
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,6 +34,6 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "C:/Users/evanb/AppData/Local/JetBrains/Toolbox/apps/CLion-Nova/ch-0/241.11109/bin/mingw/bin/objdump.exe")
+  set(CMAKE_OBJDUMP "C:/Users/Evan/AppData/Local/Programs/CLion Nova/bin/mingw/bin/objdump.exe")
 endif()
 

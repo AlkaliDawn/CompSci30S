@@ -64,16 +64,27 @@ int suitFromIndex(const int i) {
 }
 
 constexpr void init_card_array(vector<string> &cards) {
-    const string suits[4] = {"P", "H", "C", "M"}; // Red: Paranormals, Hoaxes, Black: Cryptids, Myths
+
+    // Red: Paranormals, Hoaxes, Black: Cryptids, Myths
+    const string suits[4] = {"P", "H", "C", "M"};
+
     // ace to king
     const string nums[13] = { "2", "3", "4", "5", "6", "7", "8", "9", "T", "J", "Q", "K", "A"};
+
     for (int i = 0; i < 52; i++) {
-        string new_card;
-        if (suitFromIndex(i) < 2 /* if suit is black */ )
-        { new_card.append(RED); } else { new_card.append(BLACK); }
+
+        string new_card; // temporary string to hold the card
+
+        if (suitFromIndex(i) < 2 ) {
+            new_card.append(RED);
+        }
+
+        else {
+            new_card.append(BLACK);
+        }
+
         switch (suitFromIndex(i)) {
-            case 0: {
-                // paranormals
+            case 0: { // paranormals
                 new_card.append("\n___________\n" "| ");
                 new_card.append(nums[numFromIndex(i)]);
                 new_card.append("       |\n" "|         |\n" "|  #, ,#  |\n" "|   :#:   |\n" "|  #^ ^#  |\n" "|         |\n" "|       ");
@@ -82,8 +93,7 @@ constexpr void init_card_array(vector<string> &cards) {
                 break;
             }
 
-            case 1: {
-                // paranormals
+            case 1: { // hoaxes
                 new_card.append("\n___________\n" "| ");
                 new_card.append(nums[numFromIndex(i)]);
                 new_card.append("       |\n" "|         |\n" "|   %#&   |\n" "|==#$@$#==|\n" "|   ?#%   |\n" "|         |\n" "|       ");
@@ -92,8 +102,7 @@ constexpr void init_card_array(vector<string> &cards) {
                 break;
             }
 
-            case 2: {
-                // paranormals
+            case 2: { // cryptids
                 new_card.append("\n___________\n" "| ");
                 new_card.append(nums[numFromIndex(i)]);
                 new_card.append("       |\n" "|         |\n" "| %>---<& |\n" "|#   |   #|\n" "| ?>---<% |\n" "|         |\n" "|       ");
@@ -102,7 +111,7 @@ constexpr void init_card_array(vector<string> &cards) {
                 break;
             }
 
-            case 3: {
+            case 3: { // myths
                 new_card.append("\n___________\n" "| ");
                 new_card.append(nums[numFromIndex(i)]);
                 new_card.append("       |\n" "|    |    |\n" "| ####### |\n" "|   |#|   |\n" "|   |#|   |\n" "|   \\#/ ");
@@ -110,6 +119,11 @@ constexpr void init_card_array(vector<string> &cards) {
                 new_card.append(" |\n" "^'^*^'^*^'^\n");
                 break;
             }
+
+            default:
+                {
+
+                }
         }
         new_card.append(RESET);
         cards.push_back(new_card);
@@ -213,8 +227,6 @@ void cycleCards(int& new_card, int &old_card) {
 void nextCard() {
     cout << "\n\nThe next card is..........\nThe ";
 }
-
-
 
 int main() {
     

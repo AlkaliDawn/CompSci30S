@@ -1,9 +1,13 @@
+// Program to print out large letters - Comp Sci 30 S
+// Evan Bartlett
+
 #include <iostream>
 #include <conio.h>
+#include <string>
 
 using namespace std;
 
-// function that returns the string recieve from the user
+// function that returns the string received from the user
 string getInput() {
     string str; // string to temporarily store input
     while (true) {
@@ -23,7 +27,8 @@ string getInput() {
 
 // Function to index the string, modifies the ascii value of each char in the string so its numeric value is the
 // index to its large version in the array of large characters
-// It also converts anything non-alphanumeric to just be a space, is is later outputted as a few newlines
+// It also converts anything non-alphanumeric to just be a space, is later outputted as a few newlines
+// str - string to be indexed
 string indexString(string str) {
     for (char& i: str) {
         if (i >= 'a' && i <= 'z') {
@@ -44,10 +49,12 @@ string indexString(string str) {
 
 // uses the array of letters to print each char in the string
 // if the char is a space, prints 3 newlines, otherwise uses the char value as the array index
-void printLetters(const string &str, auto letters) {
+// str - string to be printed
+// letters[36] - array of large characters to use to print the string
+void printLetters(const string &str, string letters[36]) {
     for (const char& i: str) {
 
-        if (i == ' ') { // if char is a space print newlines and proceed to next loop iteration
+        if (i == ' ') { // if char is a space print newlines and proceed to shift loop iteration
             cout << "\n\n\n";
             continue;
         }
@@ -57,6 +64,7 @@ void printLetters(const string &str, auto letters) {
 
 // function to ask the user whether they want to restart
 // if the input is not 'y' or 'n' it will continue to ask for input
+// input - ref to be modified with teh vale of the user's input
 void askRestart(char &input) {
     while (true) {
         input = tolower(_getch());

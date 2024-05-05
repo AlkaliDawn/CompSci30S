@@ -1,3 +1,6 @@
+// Program to simulate curling - Comp Sci 30 S
+// Evan Bartlett
+
 #include <conio.h>
 #include <format>
 #include <iostream>
@@ -16,11 +19,16 @@ void seed_random() {
     }
 }
 
+// decides which team has the hammer
 bool coin_toss() {
     return rand() % 2;
 }
 
-void play_end(int end, bool hammer, int &score1, int &score2) {
+// end is the current end
+// hammer - a bool for who has the hammer, 0
+// score1 - current score of team 1
+// score2 - current score of team 2
+void play_end(bool hammer, int &score1, int &score2) {
     int outcome = rand() % 100;
     bool winner;
     int gain;
@@ -84,28 +92,24 @@ int main() {
 
     int score1 = 0;
     int score2 = 0;
-
-    int end;
-
     cout << "END          TEAM 30S        TEAM 40S\n";
-
-    for (end = 0; end < 10 || score1 == score2; end++) {
-        cout << " " << end + 1;
+    for (int end = 1; end <= 10 || score1 == score2; end++) {
+        cout << " " << end;
         for (int j = 0; j < 14; j++) {
             cout << " ";
         }
-        if (floor((end + 1)/10) == 0) {
+        if (end < 10) {
             cout << " ";
         }
-        play_end(end, coin_toss(), score1, score2);
+        play_end(coin_toss(), score1, score2);
         cout << endl;
     }
 
     cout << "FINAL SCORE      " << score1;
-    for (int j = 0; j < 15; j++) {
+    for (int j = 0; j < 14; j++) {
         cout << " ";
     }
-    if (floor(score1/10) > 0) {
+    if (score1 < 10) {
         cout << " ";
     }
     cout << score2;

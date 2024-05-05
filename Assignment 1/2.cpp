@@ -1,3 +1,6 @@
+// Program to Raise a base to a power (crazy i know) - Comp Sci 30 S
+// Evan Bartlett
+
 #include <iostream>
 #include <string>
 #include <cmath>
@@ -7,10 +10,8 @@
 using namespace std;
 
 // function to raise a base to an exponent
-// if the base is 0 and the exponent is not 0, returns 0
-// if the exponent is 0, returns 1
-// multiplies the base by itself exponent times
-// if the exponent is negative, reciprocate the result
+// base - base of the exponent
+// exponent - power to raise the base to
 constexpr float power(float base, int exponent) {
     float result = 1;
     if (base == 0 && exponent != 0) { // if the base is 0 and the exponent is not 0, return 0
@@ -30,6 +31,8 @@ constexpr float power(float base, int exponent) {
 
 // function to validate the input
 // prevents power function from being called with a base of 0 and an exponent of 0
+// base - base to validate, must not be 0 at the same time as exponent
+// exponent - power to validate, must not be 0 at the same time as base
 bool validate(float base, int exponent) {
     if (base == 0 && exponent == 0) {
         return false;
@@ -38,11 +41,15 @@ bool validate(float base, int exponent) {
 }
 
 // function to print the result of the power function
+// base - base of the exponent
+// exponent - power to raise the base to
 void printResult(float base, int exponent) {
     cout << base << " raised to the power of " << exponent << " is " << power(base, exponent) << endl;
 }
 
 // function to get the input from the user
+// base - base of the exponent
+// exponent - power to raise the base to
 void getInput(float &base, int &exponent) {
     cout << "Enter a Base: ";
     cin >> base;
@@ -51,6 +58,8 @@ void getInput(float &base, int &exponent) {
 }
 
 // function to get the second input from the user in part two
+// base - second base of the exponent
+// exponent - second power to raise the base to
 void getSecondInput(float &base, int &exponent) {
     cout << "Enter a Second Base: ";
     cin >> base;
@@ -71,7 +80,7 @@ int main() {
 
         getInput(base, exponent); // get the base and exponent from the user
 
-        // if the base and exponent are both 0, print an error message and continue to the next iteration
+        // if the base and exponent are both 0, print an error message and continue to the shift iteration
         if(!validate(base, exponent)) {
             cout << "Invalid Input! Base and Exponent CANNOT both be zero. Please try again...\n\n";
             continue;
@@ -84,7 +93,7 @@ int main() {
 
     while (true) {
         getInput(base, exponent); // get the base and exponent from the user
-        if(!validate(base, exponent)) { // if the base and exponent are both 0, print an error message and continue to the next iteration
+        if(!validate(base, exponent)) { // if the base and exponent are both 0, print an error message and continue to the shift iteration
             cout << "Invalid Input! Base and Exponent CANNOT both be zero. Please try again...\n\n";
             continue;
         }
@@ -92,11 +101,11 @@ int main() {
     }
     while (true) {
         getSecondInput(base2, exponent2); // get the second base and exponent from the user
-        if(!validate(base2, exponent2)) { // if the second base and exponent are both 0 continue to the next iteration
+        if(!validate(base2, exponent2)) { // if the second base and exponent are both 0 continue to the shift iteration
             cout << "Invalid Input! The Second Base and Second Exponent CANNOT both be zero. Please try again...\n\n";
             continue;
         }
-        if(exponent2 < 0) { // if the second exponent is negative continue to the next iteration
+        if(exponent2 < 0) { // if the second exponent is negative continue to the shift iteration
             cout << "Invalid Input!The Second Exponent MUST be greater than zero. Please try again...\n\n";
             continue;
         }

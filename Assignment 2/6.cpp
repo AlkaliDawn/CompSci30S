@@ -43,7 +43,7 @@ vector<string> init_card_array();
 int main() {
     
     // Start Initialization
-    seed_random();
+    seedRandom();
     
     int roundsPlayed = 1;
     

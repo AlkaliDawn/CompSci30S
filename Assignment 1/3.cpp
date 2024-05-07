@@ -129,7 +129,7 @@ vector<string> init_card_array() {
 }
 
 // seeds the random number generator using a non-deterministic random number generator
-void seed_random() {
+void seedRandom() {
     random_device tempDevice;
     srand(tempDevice());
     for (int i = 0; i < tempDevice(); i++) {
@@ -256,7 +256,7 @@ float calcAvg(float total_right, float rounds) {
 
 int main() {
 
-    seed_random(); // seed the random number generator
+    seedRandom(); // seed the random number generator
 
     int score = 0; // current number of correct guesses in a row
     int high_score = 0; // highest streak of correct guesses in a row

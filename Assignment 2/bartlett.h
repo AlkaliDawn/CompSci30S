@@ -1,4 +1,6 @@
 // Generic functions that are used in most of my programs
+//@formatter:off - turn off formatting for this file, bc it didn't like me for some reason
+
 
 #ifndef BARTLETT_H
 #define BARTLETT_H
@@ -18,8 +20,11 @@ using namespace std;
 #define GREEN "\033[38;2;0;153;51m"
 #define PURPLE "\033[38;2;204;0;255m"
 
-// seeds the random number generator using a non-deterministic random number generator
-void seed_random() {
+constexpr int Ignore_Value = 10000;
+
+// seeds the random number generator using a non-deterministic random number
+// generator
+void seedRandom() {
     random_device tempDevice;
     srand(tempDevice());
     for (int i = 0; i < tempDevice(); i++) {
@@ -34,24 +39,26 @@ template <Arithmetic T>
 T getNum() {
     T num;
     while (!(cin >> num)) {
-        cout << "Please enter numbers only." << endl;
+        cout << "Please enter numbers only." << '\n';
         cin.clear();
-        cin.ignore(10000,'\n');
+        cin.ignore(Ignore_Value, '\n');
     }
-    cin.ignore(10000,'\n');
+    cin.ignore(Ignore_Value, '\n');
     return num;
 } // VOID GETNUM<T>()
+
 
 template <Arithmetic T>
 T getNum(T low, T high) {
     T num;
     while (true) {
         while (!(cin >> num)) {
-            cout << "Please enter numbers only." << endl;
+            cout << "Please enter numbers only." << '\n';
             cin.clear();
-            cin.ignore(10000,'\n');
+            
+            cin.ignore(Ignore_Value, '\n');
         }
-        cin.ignore(10000,'\n');
+        cin.ignore(Ignore_Value, '\n');
         if (num < low) {
             cout << "Input must not be less than " << low << endl;
             continue;
@@ -72,9 +79,9 @@ T getNum(T low) {
         while (!(cin >> num)) {
             cout << "Please enter numbers only." << endl;
             cin.clear();
-            cin.ignore(10000,'\n');
+            cin.ignore(10000, '\n');
         }
-        cin.ignore(10000,'\n');
+        cin.ignore(10000, '\n');
         if (num < low) {
             cout << "Input must not be less than " << low << endl;
             continue;
@@ -84,14 +91,15 @@ T getNum(T low) {
     return num;
 } // T GETNUM(T)
 
-char get(const string& test_string) {
+char get(const string & testString) {
     while (true) {
-
+        
         // get the inputted character
         char input = tolower(_getch());
         
-        // checks if input matches anything in the test string, returns the char if it's the same
-        for (const char i: test_string) {
+        // checks if input matches anything in the test string, returns the char
+        // if it's the same
+        for (const char i: testString) {
             if (i == input) {
                 cout << input << '\n';
                 return input;
@@ -109,4 +117,4 @@ string sget() {
         }
     }
     return str;
-} // STRING GET()
+} // STRING SGET()

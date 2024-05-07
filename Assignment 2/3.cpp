@@ -31,9 +31,9 @@ void makeOrder(vector<int>& seated_order, vector<int>& elim_players, int num_pla
 }
 
 int main() {
-    seed_random();
+    seedRandom();
 
-    int num_chairs = 0;
+    int numChairs = 0;
     int money = rand() % 500 + 501;
     int bet = 0;
     int guess = 0;
@@ -45,18 +45,18 @@ int main() {
 
     cout << "Welcome to DMC! (Digital Musical Chairs)\n";
     cout << "How many players are playing (from 2 - 8)?  > ";
-
-    num_chairs = getNum(2, 8);
+    
+    numChairs = getNum(2, 8);
 
     while (true) {
         cout << format("You have ${} - how much do you want 1to bet ($1 to ${})?  > ", money, money);
         bet = getNum(1, money);
 
-        cout << format("Which player do you think will win (1 to {})?  > ", num_chairs);
-        guess = getNum(1, num_chairs);
+        cout << format("Which player do you think will win (1 to {})?  > ", numChairs);
+        guess = getNum(1, numChairs);
 
-        for (int i = 1; i < num_chairs; i++) {
-            curr_players = num_chairs - i + 1; // add one to include player that loses
+        for (int i = 1; i < numChairs; i++) {
+            curr_players = numChairs - i + 1; // add one to include player that loses
             makeOrder(seated_order, curr_players);
             cout << format("Round {}:\n", i);
             cout << "Players Seated  ";

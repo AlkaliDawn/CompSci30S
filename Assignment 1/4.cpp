@@ -15,7 +15,7 @@ using namespace std;
 #define PURPLE "\033[38;2;204;0;255m"
 
 // seeds the random number generator using a non-deterministic random number generator
-void seed_random() {
+void seedRandom() {
     random_device tempDevice;
     srand(tempDevice());
     for (int i = 0; i < tempDevice(); i++) {
@@ -241,7 +241,7 @@ int primeBet(int money, int winningNumber) {
 
 int main() {
 
-    seed_random();
+    seedRandom();
 
     int money = rand() % 500 + 501; // how much money the user has
     int winningNumber = rand() % 36 + 1; // the number rolled on the wheel

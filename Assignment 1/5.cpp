@@ -15,7 +15,7 @@
 using namespace std;
 
 // seeds the random number generator using a non-deterministic random number generator
-void seed_random() {
+void seedRandom() {
     random_device tempDevice;
     srand(tempDevice());
     for (int i = 0; i < tempDevice(); i++) {
@@ -103,7 +103,7 @@ bool threeSame(int a, int b, int c, float& times_three_same) {
 
 int main() {
 
-    seed_random();
+    seedRandom();
 
     int money = rand() % 500 + 501; // the amount of money the user has
     int startingMoney = money; // money at the start of the game for telling the user how much they gained / lost

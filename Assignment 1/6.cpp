@@ -11,7 +11,7 @@
 using namespace std;
 
 // seeds the random number generator using a non-deterministic random number generator
-void seed_random() {
+void seedRandom() {
     random_device tempDevice;
     srand(tempDevice());
     for (int i = 0; i < tempDevice(); i++) {
@@ -88,7 +88,7 @@ void play_end(bool hammer, int &score1, int &score2) {
 
 int main() {
 
-    seed_random();
+    seedRandom();
 
     int score1 = 0;
     int score2 = 0;

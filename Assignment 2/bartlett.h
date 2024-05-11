@@ -13,12 +13,20 @@
 
 using namespace std;
 
+#define RESET "\033[0m"
+#define BOLD "\033[1m"
+#define GREEN "\033[38;2;0;153;51m"
 #define RED "\033[38;2;240;6;10m"
 #define BLACK "\033[38;2;132;132;132m"
-#define BOLD "\033[1m"
-#define RESET "\033[0m"
-#define GREEN "\033[38;2;0;153;51m"
+
+#define LIME "\033[38;2;95;255;51m"
+#define YELLOW "\033[38;2;241;255;38m"
+#define ORANGE "\033[38;2;255;188;54m"
 #define PURPLE "\033[38;2;204;0;255m"
+#define PINK "\033[38;2;241;112;149m"
+#define TEAL "\033[38;2;10;171;123m"
+#define BLUE "\033[38;2;8;206;255m"
+#define PASTEL_BLUE "\033[38;2;98;84;255m"
 
 constexpr int Ignore_Value = 10000;
 

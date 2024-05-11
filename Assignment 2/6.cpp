@@ -68,13 +68,8 @@ int main() {
     
     std::atomic<bool> run(true);
     std::thread quitThread;
-    
-    if (get("ia") == 'i') {
-        inInputMode = true;
-    } else {
-        inInputMode = false;
-        quitThread = std::thread(nbGetch, std::ref(run));
-    }
+
+    inInputMode = get("ia") == 'i';
     
     cout << PURPLE "\n\nThe battle begins.\n\n" RESET;
     

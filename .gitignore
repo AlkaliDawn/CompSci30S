@@ -1,3 +1,192 @@
 /cmake-build-debug-mingw/
 /cmake-build-debug-visual-studio/
 /cmake-build-debug/
+cmake-build-release/.cmake/api/v1/query/cache-v2
+cmake-build-release/.cmake/api/v1/query/cmakeFiles-v1
+cmake-build-release/.cmake/api/v1/query/codemodel-v2
+cmake-build-release/.cmake/api/v1/query/toolchains-v1
+cmake-build-release/.cmake/api/v1/reply/cache-v2-6cf4e560665ac43777a4.json
+cmake-build-release/.cmake/api/v1/reply/cmakeFiles-v1-c607ba430163a377d106.json
+cmake-build-release/.cmake/api/v1/reply/codemodel-v2-d3668ea4aa2c93fc6f55.json
+cmake-build-release/.cmake/api/v1/reply/directory-.-Release-d0094a50bb2071803777.json
+cmake-build-release/.cmake/api/v1/reply/directory-Assignment 1-Release-ffe6ae7572f345f288c6.json
+cmake-build-release/.cmake/api/v1/reply/directory-Assignment 2-Release-3ef1f589357ac47d210b.json
+cmake-build-release/.cmake/api/v1/reply/index-2024-05-09T15-10-23-0057.json
+cmake-build-release/.cmake/api/v1/reply/target-A1_1-Release-c976e338a0d6a39adf06.json
+cmake-build-release/.cmake/api/v1/reply/target-A1_2-Release-13b9b562846641c73b44.json
+cmake-build-release/.cmake/api/v1/reply/target-A1_3-Release-4335715ad0636c948a2d.json
+cmake-build-release/.cmake/api/v1/reply/target-A1_4-Release-90b5988e15f50e9178da.json
+cmake-build-release/.cmake/api/v1/reply/target-A1_5-Release-3fdefe13c82cc773f0d6.json
+cmake-build-release/.cmake/api/v1/reply/target-A1_6-Release-8410aa4279dd53e1c377.json
+cmake-build-release/.cmake/api/v1/reply/target-A2_1-Release-37dadc04b972aac6d5a5.json
+cmake-build-release/.cmake/api/v1/reply/target-A2_2-Release-f294523e496ba474977a.json
+cmake-build-release/.cmake/api/v1/reply/target-A2_3-Release-60ab5d3acf70101ce57b.json
+cmake-build-release/.cmake/api/v1/reply/target-A2_4-Release-0201d937d9e01d97f48f.json
+cmake-build-release/.cmake/api/v1/reply/target-A2_5-Release-456f96b411abc30fb08a.json
+cmake-build-release/.cmake/api/v1/reply/target-A2_6-Release-1185b977f5bb7542c0f7.json
+cmake-build-release/.cmake/api/v1/reply/toolchains-v1-fc33c201e897c7aef953.json
+cmake-build-release/Assignment 1/A1.cbp
+cmake-build-release/Assignment 1/cmake_install.cmake
+cmake-build-release/Assignment 1/CMakeFiles/A1_1.dir/build.make
+cmake-build-release/Assignment 1/CMakeFiles/A1_1.dir/cmake_clean.cmake
+cmake-build-release/Assignment 1/CMakeFiles/A1_1.dir/compiler_depend.make
+cmake-build-release/Assignment 1/CMakeFiles/A1_1.dir/compiler_depend.ts
+cmake-build-release/Assignment 1/CMakeFiles/A1_1.dir/depend.make
+cmake-build-release/Assignment 1/CMakeFiles/A1_1.dir/DependInfo.cmake
+cmake-build-release/Assignment 1/CMakeFiles/A1_1.dir/flags.make
+cmake-build-release/Assignment 1/CMakeFiles/A1_1.dir/link.txt
+cmake-build-release/Assignment 1/CMakeFiles/A1_1.dir/linkLibs.rsp
+cmake-build-release/Assignment 1/CMakeFiles/A1_1.dir/objects1.rsp
+cmake-build-release/Assignment 1/CMakeFiles/A1_1.dir/progress.make
+cmake-build-release/Assignment 1/CMakeFiles/A1_2.dir/build.make
+cmake-build-release/Assignment 1/CMakeFiles/A1_2.dir/cmake_clean.cmake
+cmake-build-release/Assignment 1/CMakeFiles/A1_2.dir/compiler_depend.make
+cmake-build-release/Assignment 1/CMakeFiles/A1_2.dir/compiler_depend.ts
+cmake-build-release/Assignment 1/CMakeFiles/A1_2.dir/depend.make
+cmake-build-release/Assignment 1/CMakeFiles/A1_2.dir/DependInfo.cmake
+cmake-build-release/Assignment 1/CMakeFiles/A1_2.dir/flags.make
+cmake-build-release/Assignment 1/CMakeFiles/A1_2.dir/link.txt
+cmake-build-release/Assignment 1/CMakeFiles/A1_2.dir/linkLibs.rsp
+cmake-build-release/Assignment 1/CMakeFiles/A1_2.dir/objects1.rsp
+cmake-build-release/Assignment 1/CMakeFiles/A1_2.dir/progress.make
+cmake-build-release/Assignment 1/CMakeFiles/A1_3.dir/build.make
+cmake-build-release/Assignment 1/CMakeFiles/A1_3.dir/cmake_clean.cmake
+cmake-build-release/Assignment 1/CMakeFiles/A1_3.dir/compiler_depend.make
+cmake-build-release/Assignment 1/CMakeFiles/A1_3.dir/compiler_depend.ts
+cmake-build-release/Assignment 1/CMakeFiles/A1_3.dir/depend.make
+cmake-build-release/Assignment 1/CMakeFiles/A1_3.dir/DependInfo.cmake
+cmake-build-release/Assignment 1/CMakeFiles/A1_3.dir/flags.make
+cmake-build-release/Assignment 1/CMakeFiles/A1_3.dir/link.txt
+cmake-build-release/Assignment 1/CMakeFiles/A1_3.dir/linkLibs.rsp
+cmake-build-release/Assignment 1/CMakeFiles/A1_3.dir/objects1.rsp
+cmake-build-release/Assignment 1/CMakeFiles/A1_3.dir/progress.make
+cmake-build-release/Assignment 1/CMakeFiles/A1_4.dir/build.make
+cmake-build-release/Assignment 1/CMakeFiles/A1_4.dir/cmake_clean.cmake
+cmake-build-release/Assignment 1/CMakeFiles/A1_4.dir/compiler_depend.make
+cmake-build-release/Assignment 1/CMakeFiles/A1_4.dir/compiler_depend.ts
+cmake-build-release/Assignment 1/CMakeFiles/A1_4.dir/depend.make
+cmake-build-release/Assignment 1/CMakeFiles/A1_4.dir/DependInfo.cmake
+cmake-build-release/Assignment 1/CMakeFiles/A1_4.dir/flags.make
+cmake-build-release/Assignment 1/CMakeFiles/A1_4.dir/link.txt
+cmake-build-release/Assignment 1/CMakeFiles/A1_4.dir/linkLibs.rsp
+cmake-build-release/Assignment 1/CMakeFiles/A1_4.dir/objects1.rsp
+cmake-build-release/Assignment 1/CMakeFiles/A1_4.dir/progress.make
+cmake-build-release/Assignment 1/CMakeFiles/A1_5.dir/build.make
+cmake-build-release/Assignment 1/CMakeFiles/A1_5.dir/cmake_clean.cmake
+cmake-build-release/Assignment 1/CMakeFiles/A1_5.dir/compiler_depend.make
+cmake-build-release/Assignment 1/CMakeFiles/A1_5.dir/compiler_depend.ts
+cmake-build-release/Assignment 1/CMakeFiles/A1_5.dir/depend.make
+cmake-build-release/Assignment 1/CMakeFiles/A1_5.dir/DependInfo.cmake
+cmake-build-release/Assignment 1/CMakeFiles/A1_5.dir/flags.make
+cmake-build-release/Assignment 1/CMakeFiles/A1_5.dir/link.txt
+cmake-build-release/Assignment 1/CMakeFiles/A1_5.dir/linkLibs.rsp
+cmake-build-release/Assignment 1/CMakeFiles/A1_5.dir/objects1.rsp
+cmake-build-release/Assignment 1/CMakeFiles/A1_5.dir/progress.make
+cmake-build-release/Assignment 1/CMakeFiles/A1_6.dir/build.make
+cmake-build-release/Assignment 1/CMakeFiles/A1_6.dir/cmake_clean.cmake
+cmake-build-release/Assignment 1/CMakeFiles/A1_6.dir/compiler_depend.make
+cmake-build-release/Assignment 1/CMakeFiles/A1_6.dir/compiler_depend.ts
+cmake-build-release/Assignment 1/CMakeFiles/A1_6.dir/depend.make
+cmake-build-release/Assignment 1/CMakeFiles/A1_6.dir/DependInfo.cmake
+cmake-build-release/Assignment 1/CMakeFiles/A1_6.dir/flags.make
+cmake-build-release/Assignment 1/CMakeFiles/A1_6.dir/link.txt
+cmake-build-release/Assignment 1/CMakeFiles/A1_6.dir/linkLibs.rsp
+cmake-build-release/Assignment 1/CMakeFiles/A1_6.dir/objects1.rsp
+cmake-build-release/Assignment 1/CMakeFiles/A1_6.dir/progress.make
+cmake-build-release/Assignment 1/CMakeFiles/CMakeDirectoryInformation.cmake
+cmake-build-release/Assignment 1/CMakeFiles/progress.marks
+cmake-build-release/Assignment 1/Makefile
+cmake-build-release/Assignment 2/A2.cbp
+cmake-build-release/Assignment 2/cmake_install.cmake
+cmake-build-release/Assignment 2/CMakeFiles/A2_1.dir/build.make
+cmake-build-release/Assignment 2/CMakeFiles/A2_1.dir/cmake_clean.cmake
+cmake-build-release/Assignment 2/CMakeFiles/A2_1.dir/compiler_depend.make
+cmake-build-release/Assignment 2/CMakeFiles/A2_1.dir/compiler_depend.ts
+cmake-build-release/Assignment 2/CMakeFiles/A2_1.dir/depend.make
+cmake-build-release/Assignment 2/CMakeFiles/A2_1.dir/DependInfo.cmake
+cmake-build-release/Assignment 2/CMakeFiles/A2_1.dir/flags.make
+cmake-build-release/Assignment 2/CMakeFiles/A2_1.dir/link.txt
+cmake-build-release/Assignment 2/CMakeFiles/A2_1.dir/linkLibs.rsp
+cmake-build-release/Assignment 2/CMakeFiles/A2_1.dir/objects1.rsp
+cmake-build-release/Assignment 2/CMakeFiles/A2_1.dir/progress.make
+cmake-build-release/Assignment 2/CMakeFiles/A2_2.dir/build.make
+cmake-build-release/Assignment 2/CMakeFiles/A2_2.dir/cmake_clean.cmake
+cmake-build-release/Assignment 2/CMakeFiles/A2_2.dir/compiler_depend.make
+cmake-build-release/Assignment 2/CMakeFiles/A2_2.dir/compiler_depend.ts
+cmake-build-release/Assignment 2/CMakeFiles/A2_2.dir/depend.make
+cmake-build-release/Assignment 2/CMakeFiles/A2_2.dir/DependInfo.cmake
+cmake-build-release/Assignment 2/CMakeFiles/A2_2.dir/flags.make
+cmake-build-release/Assignment 2/CMakeFiles/A2_2.dir/link.txt
+cmake-build-release/Assignment 2/CMakeFiles/A2_2.dir/linkLibs.rsp
+cmake-build-release/Assignment 2/CMakeFiles/A2_2.dir/objects1.rsp
+cmake-build-release/Assignment 2/CMakeFiles/A2_2.dir/progress.make
+cmake-build-release/Assignment 2/CMakeFiles/A2_3.dir/build.make
+cmake-build-release/Assignment 2/CMakeFiles/A2_3.dir/cmake_clean.cmake
+cmake-build-release/Assignment 2/CMakeFiles/A2_3.dir/compiler_depend.make
+cmake-build-release/Assignment 2/CMakeFiles/A2_3.dir/compiler_depend.ts
+cmake-build-release/Assignment 2/CMakeFiles/A2_3.dir/depend.make
+cmake-build-release/Assignment 2/CMakeFiles/A2_3.dir/DependInfo.cmake
+cmake-build-release/Assignment 2/CMakeFiles/A2_3.dir/flags.make
+cmake-build-release/Assignment 2/CMakeFiles/A2_3.dir/link.txt
+cmake-build-release/Assignment 2/CMakeFiles/A2_3.dir/linkLibs.rsp
+cmake-build-release/Assignment 2/CMakeFiles/A2_3.dir/objects1.rsp
+cmake-build-release/Assignment 2/CMakeFiles/A2_3.dir/progress.make
+cmake-build-release/Assignment 2/CMakeFiles/A2_4.dir/build.make
+cmake-build-release/Assignment 2/CMakeFiles/A2_4.dir/cmake_clean.cmake
+cmake-build-release/Assignment 2/CMakeFiles/A2_4.dir/compiler_depend.make
+cmake-build-release/Assignment 2/CMakeFiles/A2_4.dir/compiler_depend.ts
+cmake-build-release/Assignment 2/CMakeFiles/A2_4.dir/depend.make
+cmake-build-release/Assignment 2/CMakeFiles/A2_4.dir/DependInfo.cmake
+cmake-build-release/Assignment 2/CMakeFiles/A2_4.dir/flags.make
+cmake-build-release/Assignment 2/CMakeFiles/A2_4.dir/link.txt
+cmake-build-release/Assignment 2/CMakeFiles/A2_4.dir/linkLibs.rsp
+cmake-build-release/Assignment 2/CMakeFiles/A2_4.dir/objects1.rsp
+cmake-build-release/Assignment 2/CMakeFiles/A2_4.dir/progress.make
+cmake-build-release/Assignment 2/CMakeFiles/A2_5.dir/build.make
+cmake-build-release/Assignment 2/CMakeFiles/A2_5.dir/cmake_clean.cmake
+cmake-build-release/Assignment 2/CMakeFiles/A2_5.dir/compiler_depend.make
+cmake-build-release/Assignment 2/CMakeFiles/A2_5.dir/compiler_depend.ts
+cmake-build-release/Assignment 2/CMakeFiles/A2_5.dir/depend.make
+cmake-build-release/Assignment 2/CMakeFiles/A2_5.dir/DependInfo.cmake
+cmake-build-release/Assignment 2/CMakeFiles/A2_5.dir/flags.make
+cmake-build-release/Assignment 2/CMakeFiles/A2_5.dir/link.txt
+cmake-build-release/Assignment 2/CMakeFiles/A2_5.dir/linkLibs.rsp
+cmake-build-release/Assignment 2/CMakeFiles/A2_5.dir/objects1.rsp
+cmake-build-release/Assignment 2/CMakeFiles/A2_5.dir/progress.make
+cmake-build-release/Assignment 2/CMakeFiles/A2_6.dir/build.make
+cmake-build-release/Assignment 2/CMakeFiles/A2_6.dir/cmake_clean.cmake
+cmake-build-release/Assignment 2/CMakeFiles/A2_6.dir/compiler_depend.make
+cmake-build-release/Assignment 2/CMakeFiles/A2_6.dir/compiler_depend.ts
+cmake-build-release/Assignment 2/CMakeFiles/A2_6.dir/depend.make
+cmake-build-release/Assignment 2/CMakeFiles/A2_6.dir/DependInfo.cmake
+cmake-build-release/Assignment 2/CMakeFiles/A2_6.dir/flags.make
+cmake-build-release/Assignment 2/CMakeFiles/A2_6.dir/link.txt
+cmake-build-release/Assignment 2/CMakeFiles/A2_6.dir/linkLibs.rsp
+cmake-build-release/Assignment 2/CMakeFiles/A2_6.dir/objects1.rsp
+cmake-build-release/Assignment 2/CMakeFiles/A2_6.dir/progress.make
+cmake-build-release/Assignment 2/CMakeFiles/CMakeDirectoryInformation.cmake
+cmake-build-release/Assignment 2/CMakeFiles/progress.marks
+cmake-build-release/Assignment 2/Makefile
+cmake-build-release/cmake_install.cmake
+cmake-build-release/CMakeCache.txt
+cmake-build-release/CMakeFiles/3.28.1/CMakeCCompiler.cmake
+cmake-build-release/CMakeFiles/3.28.1/CMakeCXXCompiler.cmake
+cmake-build-release/CMakeFiles/3.28.1/CMakeDetermineCompilerABI_C.bin
+cmake-build-release/CMakeFiles/3.28.1/CMakeDetermineCompilerABI_CXX.bin
+cmake-build-release/CMakeFiles/3.28.1/CMakeRCCompiler.cmake
+cmake-build-release/CMakeFiles/3.28.1/CMakeSystem.cmake
+cmake-build-release/CMakeFiles/3.28.1/CompilerIdC/a.exe
+cmake-build-release/CMakeFiles/3.28.1/CompilerIdC/CMakeCCompilerId.c
+cmake-build-release/CMakeFiles/3.28.1/CompilerIdCXX/a.exe
+cmake-build-release/CMakeFiles/3.28.1/CompilerIdCXX/CMakeCXXCompilerId.cpp
+cmake-build-release/CMakeFiles/clion-environment.txt
+cmake-build-release/CMakeFiles/clion-Release-log.txt
+cmake-build-release/CMakeFiles/cmake.check_cache
+cmake-build-release/CMakeFiles/CMakeConfigureLog.yaml
+cmake-build-release/CMakeFiles/CMakeDirectoryInformation.cmake
+cmake-build-release/CMakeFiles/Makefile.cmake
+cmake-build-release/CMakeFiles/Makefile2
+cmake-build-release/CMakeFiles/progress.marks
+cmake-build-release/CMakeFiles/TargetDirectories.txt
+cmake-build-release/CompSci30S.cbp
+cmake-build-release/Makefile

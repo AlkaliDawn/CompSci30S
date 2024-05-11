@@ -36,100 +36,113 @@ void initArr(vi & arr, int boardSize) {
 }
 
 void printBoard(const vi & board) {
-    const int top_left = 201;
-    const int horizontal = 205;
-    const int top_right = 187;
-    const int vertical = 186;
-    const int bottom_left = 200;
-    const int bottom_right = 188;
+    const unsigned char top_left = 201;
+    const unsigned char horizontal = 205;
+    const unsigned char top_right = 187;
+    const unsigned char vertical = 186;
+    const unsigned char bottom_left = 200;
+    const unsigned char bottom_right = 188;
     
-    const int board_spaces = 9;
+    const int padding = 5;
+    const int board_spaces = min(9, static_cast<int>(board.size()) - 1);
     const int space_size = 3;
-    const int width = 10; // amount of numbers placed horizontally in the grid
+    const int width = min(10, static_cast<int>(board.size())); // amount of numbers placed horizontally in the grid
     
-    int totalSpaces = ceil(log10(board.size()));
+    const int high_digits = max(ceil(log10(static_cast<double>(board.size()))), 1.0);
     
     // 3 space characters between each number at the bottom * 9 of these, + the width of the numbers at the bottom * 10 numbers + (totalSpaces * 4) - > dynamic amount of spaces added to each end of the numbers for aesthetics
-    int numTop = (space_size * board_spaces + totalSpaces * width + totalSpaces * 4);
-    
-    if (board.size() < width) {
-        numTop *= static_cast<int>(board.size()) / width;
-    }
-    else if (board.size() == width) {
-        numTop += 3;
-    }
+    int numTop = (space_size * board_spaces + width * high_digits + padding * 2);
+
+//    if (board.size() < width) {
+//        numTop *= static_cast<int>(board.size()) / width;
+//    }
+//    else if (board.size() == width) {
+//        numTop += 3;
+//    }
     
     // *** TOP ***
-    cout << static_cast<unsigned char>(top_left); // ╔
+    cout << top_left; // ╔
     for (int i = 0; i < numTop; i++) {
-        cout << static_cast<unsigned char>(horizontal); // ═
+        cout << horizontal; // ═
     }
-    cout << static_cast<unsigned char>(top_right); // ╗
+    cout << top_right; // ╗
     cout << '\n';
     
     // ** EMPTY FIRST LINE **
-    cout << static_cast<unsigned char>(vertical); // ║
+    cout << vertical; // ║
     for (int j = 1; j <= numTop; j++) {
         cout << " ";
     }
-    cout << static_cast<unsigned char>(vertical); // ║
+    cout << vertical; // ║
     cout << '\n';
     
     // ** FIRST VERTICAL PIECE **
-    cout << static_cast<unsigned char>(vertical); // ║
-    for (int j = 1; j <= totalSpaces + 1; j++) {
+    cout << vertical; // ║
+    for (int j = 1; j <= padding; j++) {
         cout << " ";
     }
     
     // **** MAIN PRINT LOOP ****
-    for (int counter = 0; int i: board) {
+    for (int counter = 1; int i: board) {
         // num of digits in the current number
-        int numDigits = static_cast<int>(ceil(log10(counter + 2)));
-        // current spaces is the totalSpaces
-        int currSpaces = totalSpaces - static_cast<int>(ceil(log10(counter + 2)));
+        int currDigits = static_cast<int>(ceil(log10(counter + 1)));
         
-        if (i == -1) {
+        int currSpaces = high_digits - currDigits;
+        
+        if (i == -1) { // Sentry Value, Number was Already Picked
             
-            cout << PURPLE << " ";
-            for (int j = 1; j <= numDigits; j++) {
+            cout << PURPLE;
+            for (int j = 1; j <= currDigits; j++) { // Output 'x' for each of the digits in the taken number
                 cout << "X";
             }
-            cout << " " << RESET;
+            cout << RESET;
         }
-        
         else {
-            cout << GREEN << " " << i << RESET << " ";
+            cout << GREEN << i << RESET;
         }
         
-        for (int j = 1; j <= currSpaces + 1; j++) {
-            cout << " ";
-        }
-        // **** END OF ROW ****
-        if (counter % width == width - 1) {
-            for (int j = 1; j <= totalSpaces; j++) {
+        if (counter % width != 0) { // NOT END OF ROW
+            for (int j = 1; j <= space_size + currSpaces; j++) {
                 cout << " ";
             }
-            cout << static_cast<unsigned char>(vertical); // ║
-            cout << '\n';
+        }
+        else { // **** END OF ROW ****
             
-            cout << static_cast<unsigned char>(vertical); // ║
+            if (counter == board.size() && floor(log10(board.size() - 1)) < floor(log10(board.size())) && board.size() != 1) { // not last num
+                for (int j = 1; j <= padding - 1; j++) {
+                    cout << " ";
+                }
+                cout << vertical; // ║
+                cout << '\n';
+            }
+            else {
+                for (int j = 1; j <= padding; j++) {
+                    cout << " ";
+                }
+                cout << vertical; // ║
+                cout << '\n';
+            }
+            
+            // ** EMPTY ROW **
+            cout << vertical; // ║
             for (int j = 1; j <= numTop; j++) {
                 cout << " ";
             }
-            cout << static_cast<unsigned char>(vertical); // ║
+            cout << vertical; // ║
             cout << '\n';
-            if (counter != board.size() - 1) {
-                cout << static_cast<unsigned char>(vertical); // ║
-                for (int j = 1; j <= totalSpaces + 1; j++) {
+            
+            if (counter != board.size()) {
+                cout << vertical; // ║
+                for (int j = 1; j <= padding; j++) {
                     cout << " ";
                 }
             }
             else { // print bottom
-                cout << static_cast<unsigned char>(bottom_left); // ╚
+                cout << bottom_left; // ╚
                 for (int j = 0; j < numTop; j++) {
-                    cout << static_cast<unsigned char>(horizontal); // ═
+                    cout << horizontal; // ═
                 }
-                cout << static_cast<unsigned char>(bottom_right); // ╝
+                cout << bottom_right; // ╝
             }
             
         }
@@ -145,17 +158,17 @@ bool validate(const vi & board, int pick) {
 int main() {
     vi board;
     vi giveAway;
-    int boardSize = 0;
+    int boardSize;
     
-    int pick = 0;
+    int pick;
     
     int p1Score = 0;
     int p2Score = 0;
     
-    bool currPlayer = true;
+    int currPlayer = 1;
     
     cout << "WELCOME TO THE FACTOR GAME!!!\nPlease enter the size of the board... ";
-    boardSize = getNum(1);
+    boardSize = getNum(1, 100);
     cout << '\n';
     
     int p1ScoreInc = 0;
@@ -166,7 +179,13 @@ int main() {
     bool flag = true;
     while (flag) {
         printBoard(board);
-        cout << "Player " << currPlayer + 1 << ", Pick a number: ";
+        if (currPlayer == 1) {
+            cout << PINK;
+        }
+        else { // currPlayer == 2
+            cout << TEAL;
+        }
+        cout << "Player " << currPlayer << RESET ", Pick a number: ";
         pick = getNum<int>(1, boardSize);
         while (!validate(board, pick)) {
             cout << "\nNumber must be on the board!!\n";
@@ -174,7 +193,7 @@ int main() {
         }
         cout << '\n';
         board[pick - 1] = -1;
-        if (currPlayer) {
+        if (currPlayer == 1) {
             p1ScoreInc += pick;
             for (const int i: factor(pick)) {
                 if (i != pick) {
@@ -187,8 +206,9 @@ int main() {
                     }
                 }
             }
+            currPlayer = 2;
         }
-        else {
+        else { // currPlayer == 2
             p2ScoreInc += pick;
             for (const int i: factor(pick)) {
                 if (i != pick) {
@@ -201,10 +221,11 @@ int main() {
                     }
                 }
             }
+            currPlayer = 1;
         }
         
-        cout << format("Player 1 Gained {} points!!\n", p1ScoreInc);
-        cout << format("Player 2 Gained {} points!!\n\n", p2ScoreInc);
+        cout << format(PINK "Player 1" RESET " Gained {} points!!\n", p1ScoreInc);
+        cout << format(TEAL "Player 2" RESET " Gained {} points!!\n\n", p2ScoreInc);
         
         p1Score += p1ScoreInc;
         p2Score += p2ScoreInc;
@@ -212,10 +233,8 @@ int main() {
         p1ScoreInc = 0;
         p2ScoreInc = 0;
         
-        cout << format("Player 1 now has {} points.\n", p1Score);
-        cout << format("Player 2 now has {} points.\n\n", p2Score);
-        
-        currPlayer = !currPlayer;
+        cout << format(PINK "Player 1" RESET " now has {} points.\n", p1Score);
+        cout << format(TEAL "Player 2" RESET " now has {} points.\n\n", p2Score);
         
         flag = false;
         

@@ -30,37 +30,22 @@
       <configuration PROFILE_NAME="Debug-MinGW" ENABLED="true" CONFIG_NAME="Debug" TOOLCHAIN_NAME="MinGW" />
       <configuration PROFILE_NAME="Debug-Visual Studio" ENABLED="true" CONFIG_NAME="Debug" TOOLCHAIN_NAME="Visual Studio" />
       <configuration PROFILE_NAME="Release" ENABLED="true" CONFIG_NAME="Release" />
+      <configuration PROFILE_NAME="Debug-MinGW-Coverage" ENABLED="true" CONFIG_NAME="Debug" TOOLCHAIN_NAME="MinGW" GENERATION_OPTIONS="-DCMAKE_CXX_FLAGS=--coverage -DCMAKE_C_FLAGS=--coverage" />
     </configurations>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b586beda-eb07-4210-b72b-855224b4f343" name="Changes" comment="New changelist">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment 1/3.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 1/3.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment 1/4.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 1/4.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment 1/5.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 1/5.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment 1/6.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 1/6.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment 2/1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 2/1.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assignment 2/2.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 2/2.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assignment 2/3.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 2/3.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment 2/4.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 2/4.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment 2/5.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 2/5.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assignment 2/6.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 2/6.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment 2/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 2/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assignment 2/bartlett.h" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 2/bartlett.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment 2/player.h" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 2/player.h" afterDir="false" />
     </list>
-    <list id="688c50ea-75e9-4ce7-82c9-0f06ce74f24c" name="Old" comment="">
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/Assignment 1/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeCache.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/Makefile2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CMakeFiles/progress.marks" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/CompSci30S.cbp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug-mingw/cmake_install.cmake" afterDir="false" />
-    </list>
+    <list id="688c50ea-75e9-4ce7-82c9-0f06ce74f24c" name="Old" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -111,6 +96,9 @@
     "CMake Application.A2_1.executor": "Run",
     "CMake Application.A2_2.executor": "Run",
     "CMake Application.A2_3.executor": "Run",
+    "CMake Application.A2_4.executor": "Run",
+    "CMake Application.A2_5.executor": "Run",
+    "CMake Application.A2_6.executor": "Run",
     "CMake Debug.A1.executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.RadMigrateCodeStyle": "true",
@@ -129,12 +117,12 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "CMakeSettings",
+    "settings.editor.selected.configurable": "editing.templates",
     "structure.view.defaults.are.configured": "true",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="CMake Application.A2_2">
+  <component name="RunManager" selected="CMake Application.A2_1">
     <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="CLION.EXTERNAL.BUILD" enabled="true" />
@@ -240,6 +228,7 @@
       <workItem from="1708996402077" duration="36000" />
       <workItem from="1708996449904" duration="6213000" />
       <workItem from="1714927457225" duration="14631000" />
+      <workItem from="1715446843845" duration="37682000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed workspace.xml">
       <option name="closed" value="true" />
@@ -287,59 +276,11 @@
     <MESSAGE value="New changelist" />
     <option name="LAST_COMMIT_MESSAGE" value="New changelist" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/Assignment 1/2.cpp</url>
-          <line>88</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/Assignment 1/2.cpp</url>
-          <line>90</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/Assignment 1/2.cpp</url>
-          <line>92</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/Assignment 1/2.cpp</url>
-          <line>94</line>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/Assignment 1/2.cpp</url>
-          <line>96</line>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/Assignment 1/2.cpp</url>
-          <line>86</line>
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/Assignment 1/2.cpp</url>
-          <line>60</line>
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/Assignment 1/2.cpp</url>
-          <line>63</line>
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/Assignment 1/2.cpp</url>
-          <line>59</line>
-          <option name="timeStamp" value="18" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="../../../../CLionProjects/CompSci30S/cmake-build-debug-mingw-coverage" NAME="A2_4 Coverage Results" MODIFIED="1715468846856" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="gcov/llvm" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

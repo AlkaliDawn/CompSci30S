@@ -10,6 +10,8 @@
 #include <iostream>
 #include <conio.h>
 #include <random>
+#include <chrono>
+#include <thread>
 
 using namespace std;
 
@@ -30,8 +32,7 @@ using namespace std;
 
 constexpr int Ignore_Value = 10000;
 
-// seeds the random number generator using a non-deterministic random number
-// generator
+// seeds the random number generator using a non-deterministic random number generator
 void seedRandom() {
     random_device tempDevice;
     srand(tempDevice());
@@ -67,12 +68,8 @@ T getNum(T low, T high) {
             cin.ignore(Ignore_Value, '\n');
         }
         cin.ignore(Ignore_Value, '\n');
-        if (num < low) {
-            cout << "Input must not be less than " << low << endl;
-            continue;
-        }
-        if (num > high) {
-            cout << "Input must not be more than " << high << endl;
+        if (num < low || num > high) {
+            cout << format("That's not between {} and {}!!\n", low, high);
             continue;
         }
         break;
@@ -91,7 +88,7 @@ T getNum(T low) {
         }
         cin.ignore(10000, '\n');
         if (num < low) {
-            cout << "Input must not be less than " << low << endl;
+            cout << format("That's not greater than {}!!\n", low);
             continue;
         }
         break;
@@ -126,3 +123,108 @@ string sget() {
     }
     return str;
 } // STRING SGET()
+
+
+void sleep(int time) {
+    std::this_thread::sleep_for(chrono::duration<int, milli>(time));
+}
+
+/**
+ *
+ * @param i index of the card
+ * @return an int containing the suit of the card, from 0 to 3, in the order of p h c m
+ */
+int cardSuit(int i) {
+    return (int)(floor(i / 13)) % 4;
+}
+
+/**
+ *
+ * @param i index of the card
+ * @return a char containing the rank of the card
+ */
+char cardRank(int i) {
+    char nums[13] = { '2', '3', '4', '5', '6', '7', '8', '9', 'T', 'J', 'Q', 'K', 'A'};
+    return nums[i % 13];
+}
+
+// INIT CARD ARRAY BEGIN ----------------------------------------------------------------------------------------------
+vector<string> initCardArray() {
+    
+    vector<string> cards; // vector to hold the cards
+    
+    for (int i = 0; i < 52; i++) { // for every card in the player
+        
+        string newCard; // temporary string to hold the card
+        
+        if (cardSuit(i) < 2 ) { // if the suit is a paranormal or a hoax, make the card red
+            newCard.append(RED);
+        }
+        
+        else { // if the suit is a cryptid or a myth, make the card black
+            newCard.append(BLACK);
+        }
+        
+        switch (cardSuit(i)) { // switch on the suit of the card
+            case 0: { // paranormals
+                newCard.append(format(
+                        "\n,,,,,,,,,,,\n"
+                        "| {0}       |\n"
+                        "|         |\n"
+                        "|  #, ,#  |\n"
+                        "|   :#:   |\n"
+                        "|  #^ ^#  |\n"
+                        "|         |\n"
+                        "|       {0} |\n"
+                        "'''''''''''\n", cardRank(i)));
+                break;
+            }
+            
+            case 1: { // hoaxes
+                newCard.append(format(
+                        "\n,,,,,,,,,,,\n"
+                        "| {0}       |\n"
+                        "|         |\n"
+                        "|   %#&   |\n"
+                        "|==#$@$#==|\n"
+                        "|   ?#%   |\n"
+                        "|         |\n"
+                        "|       {0} |\n"
+                        "'''''''''''\n", cardRank(i)));
+                break;
+            }
+            
+            case 2: { // cryptids
+                newCard.append(format(
+                        "\n,,,,,,,,,,,\n"
+                        "| {0}       |\n"
+                        "|         |\n"
+                        "| %>---<& |\n"
+                        "|#   |   #|\n"
+                        "| ?>---<% |\n"
+                        "|         |\n"
+                        "|       {0} |\n"
+                        "'''''''''''\n", cardRank(i)));
+                break;
+            }
+            
+            case 3: { // myths
+                newCard.append(format(
+                        "\n,,,,,,,,,,,\n"
+                        "| {0}       |\n"
+                        "|    |    |\n"
+                        "| ####### |\n"
+                        "|   |#|   |\n"
+                        "|   |#|   |\n"
+                        "|   \\#/   |\n"
+                        "|       {0} |\n"
+                        "'''''''''''\n", cardRank(i)));
+                break;
+            }
+        }
+        newCard.append(RESET);
+        cards.push_back(newCard);
+    }
+    return cards;
+}
+// INIT CARD ARRAY()

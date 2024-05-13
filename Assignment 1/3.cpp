@@ -63,7 +63,7 @@ int cardSuit(int i) {
 }
 
 // generates the art for the cards and returns a vector of strings
-vector<string> init_card_array() {
+vector<string> initCardArray() {
 
     vector<string> cards; // vector to hold the cards
 
@@ -268,7 +268,7 @@ int main() {
     vector<string> nums = { "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten", "Jack", "Queen", "King", "Ace"};
     vector<string> suits = {"Paranormals", "Hoaxes", "Cryptids", "Myths"};
 
-    vector<string> cards = init_card_array(); // generate all the art for the cards
+    vector<string> cards = initCardArray(); // generate all the art for the cards
     start(new_card, nums, suits, cards); // output the welcome message and the first card
 
     bool flag = true; // declare bool variable shift to relavant loop for readability, see: https://google.github.io/styleguide/cppguide.html#Local_Variables

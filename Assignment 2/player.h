@@ -15,15 +15,17 @@ using namespace std;
 class player {
 public:
     explicit player(vector<string> cardsUI) {
-        this->cardsUI = std::move(cardsUI);
+        this->cardsUI = std::move(cardsUI); // recieve the card art
     }
     
+    // makes two player objects and splits the deck randomly and evenly between them, then returns shared pointers to the players in a pair obj
     static pair<shared_ptr<player>,  shared_ptr<player>> deal2(vector<string> cardsUI);
     
     // plays the face of the card at the top of the pile (front of the array)
     // prints the card, returns the card played, and removes it from the pile
     int playCard();
     
+    // same as playCard but without printing the card
     int takeCard();
     
     // returns the index of the last real card in the array (last non sentry value)
@@ -41,7 +43,7 @@ public:
     
     void shift();
     
-//private:
+private:
     vector<string> cardsUI;
     array<int, 52> cards{};
 };

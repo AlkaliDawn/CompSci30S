@@ -9,9 +9,12 @@
 #include "bartlett.h"
 
 using namespace std;
-// fills seated order with array indexes to players in the player array
-// seatedOrder will be filled with indexes corresponding to players
-// players is the list of players still in the running
+
+/**
+ * @brief fills seated order with array indexes to players in the player array
+ * @param seatedOrder will be filled with indexes corresponding to players
+ * @param players list of players still in the running
+ */
 void makeOrder(vector<int> & seatedOrder, vector<int> & players) {
     int num = 0;
     seatedOrder.clear();
@@ -30,7 +33,11 @@ void makeOrder(vector<int> & seatedOrder, vector<int> & players) {
         seatedOrder.push_back(num);
     }
 }
-
+/**
+ *
+ * @param players array of players to initialize
+ * @param numPlayers the numbers of players playing musical chairs
+ */
 void init(vector<int> & players, int numPlayers) {
     if (!players.empty()) {
         players.clear();
@@ -43,52 +50,51 @@ void init(vector<int> & players, int numPlayers) {
 int main() {
     seedRandom();
     
-    int numChairs = 0;
-    int money = rand() % 500 + 501;
-    int bet = 0;
-    int guess = 0;
-    vector<int> seatedOrder;
-    vector<int> players;
+    int money = rand() % 500 + 501; // starting amount of money for the user
+    int bet = 0; // user's current bet
+    int guess = 0; // player the user thinks will win
+    vector<int> seatedOrder; // array to store the order that players manage to sit down in
+    vector<int> players; // list of players in the running
     vector<string> colors = {LIME, PASTEL_BLUE, YELLOW, ORANGE, PINK, TEAL, PURPLE, BLUE};
     
     cout << "Welcome to DMC! (Digital Musical Chairs)\n";
     cout << "How many players are playing (from 2 - 8)?  > ";
     
-    numChairs = getNum(2, 8);
-    
-    init(players, numChairs);
+    const int num_chairs = getNum(2, 8);
     
     while (true) {
+        init(players, num_chairs);
         cout << format("You have ${} - how much do you want to bet ($1 to ${})?  > $", money, money);
         bet = getNum(1, money);
         
-        cout << format("Which player do you think will win (1 to {})?  > ", numChairs);
-        guess = getNum(1, numChairs);
+        cout << format("Which player do you think will win (1 to {})?  > ", num_chairs);
+        guess = getNum(1, num_chairs);
         
-        for (int i = 1; i < numChairs; i++) {
-            makeOrder(seatedOrder, players);
+        for (int i = 1; i < num_chairs; i++) { // play out a number of rounds one less than the number of players playing in total, as one player survives at the end
+            makeOrder(seatedOrder, players); // find the order players sit down in
             cout << format("Round {}:\n", i);
             cout << "Players Seated  ";
-            for (int j = 0; j < seatedOrder.size() - 1; j++) {
+            for (int j = 0; j < seatedOrder.size() - 1; j++) { // each player is outputted
                 cout << colors[players[seatedOrder[j]] - 1];
                 cout << players[seatedOrder[j]] << "    ";
                 cout << RESET;
                 this_thread::sleep_for(550ms);
             }
+            // one player is eliminated
             cout << format("So player {}{}" RESET " is eliminated!\n", colors[seatedOrder.back()], players[seatedOrder.back()]);
             players.erase(players.begin() + seatedOrder.back());
             cout << "Press any key to continue...\n";
             _getch();
         }
-        if (guess == players.front()) {
-            money += bet * (numChairs - 1);
-            cout << format(GREEN BOLD "PLAYER {} WAS THE WINNER, so you win ${} ( ${} * ( {} - 1 ) ) and now have ${}.\n" RESET, players.front(), bet * (numChairs - 1), bet, numChairs, money);
+        if (guess == players.front()) { // user guessed right
+            money += bet * (num_chairs - 1);
+            cout << format(GREEN BOLD "PLAYER {} WAS THE WINNER, so you win ${} ( ${} * ( {} - 1 ) ) and now have ${}.\n" RESET, players.front(), bet * (num_chairs - 1), bet, num_chairs, money);
         }
-        else {
+        else { // user guessed wrong
             money -= bet;
             cout << format(RED BOLD "PLAYER {} WAS THE WINNER, so you lose ${} and now have ${}.\n" RESET, players.front(), bet, money);
         }
-        if (money < 1) {
+        if (money < 1) { // user went bankrupt
             cout << "YOU WENT BANKRUPT!! THANKS FOR PLAYING.";
             return 0;
         }
@@ -96,7 +102,6 @@ int main() {
         if (get("yn") == 'n') {
             return 0;
         }
-        init(players, numChairs);
     }
     return 0;
 }

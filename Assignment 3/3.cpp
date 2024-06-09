@@ -5,14 +5,40 @@
 #include <format>
 #include "bartlett.h"
 
+/**
+ * @brief <b> Maps characters 'A' to 1, 'B' to 2, ..., 'Z' to 26.
+ */
 #define ASCII_CONST 64
 
 using namespace std;
 
+/**
+ * @brief Calculates the value of a string based on ASCII values.
+ *
+ * This function calculates the sum of the ASCII values of the characters in the string,
+ * subtracting the ASCII value of 64 from each character's ASCII value.
+ *
+ * @param str A vector of characters representing the string.
+ * @return The sum of the ASCII values of the characters in the string.
+ */
 int value(vector<char> str);
 
+/**
+ * @brief Prints a string.
+ *
+ * This function iterates over a vector of characters and prints each character.
+ *
+ * @param str A vector of characters representing the string.
+ */
 void print(const vector<char> & str);
 
+/**
+* @brief Gets a string from the user.
+*
+* This function gets a string from the user, character by character, until the user presses enter, space, or a non-alphabet character. The string is stored in a vector of characters.
+*
+* @param str A reference to a vector of characters where the string will be stored.
+*/
 void getString(vector<char> & str);
 
 int main() {
@@ -46,12 +72,13 @@ int main() {
 
 int value(vector<char> str) {
     int sum = 0;
-    for (auto iter = str.begin(); iter != str.end() - 1; ++iter) {
-        cout << static_cast<int>(*iter) - ASCII_CONST << " + ";
-        sum += static_cast<int>(*iter) - ASCII_CONST;
+    for (const auto & letter: str) {
+        cout << static_cast<int>(letter) - ASCII_CONST;
+        if (letter != str.back()) {
+            cout << " + ";
+        }
+        sum += static_cast<int>(letter) - ASCII_CONST;
     }
-    cout << static_cast<int>(str.back()) - ASCII_CONST;
-    sum += static_cast<int>(str.back()) - ASCII_CONST;
     return sum;
 }
 

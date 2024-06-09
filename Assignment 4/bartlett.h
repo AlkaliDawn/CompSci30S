@@ -1,6 +1,5 @@
 // Generic functions that are used in most of my programs
-//@formatter:off - turn off formatting for this file, bc it didn't like me for some reason
-
+// @formatter:off
 
 #ifndef BARTLETT_H
 #define BARTLETT_H
@@ -10,6 +9,7 @@
 #include <iostream>
 #include <conio.h>
 #include <random>
+#include <span>
 
 using namespace std;
 
@@ -129,3 +129,53 @@ char getNot(const string & testString) {
         }
     }
 } // CHAR GET(STRING&)
+
+template <Arithmetic T>
+T binarySearch(vector<T> data, T value) {
+    int low = 0;
+    int high = data.size() - 1;
+    int middle;
+    while (low != high) {
+        middle = floor((low+high) / 2);
+        if (data.at(middle) < value) {
+            low = middle + 1;
+            continue;
+        }
+        if (data.at(middle) > value) {
+            high = middle - 1;
+            continue;
+        }
+        return middle;
+    }
+    return -1;
+}
+
+template <Arithmetic T>
+bool bubbleSort(vector<dataType> &data) {
+    int numRight = 0; // used to check if array is sorted when ascending
+    for (int i = 0; i < data.size(); ++i) {
+        for (auto iter = data.begin(); iter < data.end() - i - 1; ++iter) {
+            if (*iter > *(iter + 1)) {
+                std::swap(*iter, *(iter + 1));
+            }
+        }
+    }
+}
+
+// linear search needs an unordered list
+
+template <Arithmetic T>
+bool insertionSort(vector<T> & data) {
+    for (int i = 1; i < data.size(); ++i) {
+        for (auto j = data.begin() + i; j != data.begin(); --j) {
+            auto left = j - 1;
+            auto right = j;
+            if (*left > *right) {
+                std::swap(*left, *right);
+            }
+            else {
+                break;
+            }
+        }
+    }
+}

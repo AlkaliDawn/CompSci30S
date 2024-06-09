@@ -11,21 +11,27 @@
   </component>
   <component name="CMakeRunConfigurationManager">
     <generated>
-      <config projectName="CompSci30S" targetName="A2_6" />
       <config projectName="CompSci30S" targetName="A3_5" />
+      <config projectName="CompSci30S" targetName="A4_4" />
+      <config projectName="CompSci30S" targetName="A2_6" />
       <config projectName="CompSci30S" targetName="A3_6" />
+      <config projectName="CompSci30S" targetName="A4_5" />
+      <config projectName="CompSci30S" targetName="A4_6" />
+      <config projectName="CompSci30S" targetName="A3_1" />
       <config projectName="CompSci30S" targetName="A1_3" />
       <config projectName="CompSci30S" targetName="A2_2" />
-      <config projectName="CompSci30S" targetName="A3_1" />
+      <config projectName="CompSci30S" targetName="A3_2" />
+      <config projectName="CompSci30S" targetName="A4_1" />
       <config projectName="CompSci30S" targetName="A1_4" />
       <config projectName="CompSci30S" targetName="A2_3" />
-      <config projectName="CompSci30S" targetName="A3_2" />
+      <config projectName="CompSci30S" targetName="A3_3" />
+      <config projectName="CompSci30S" targetName="A4_2" />
       <config projectName="CompSci30S" targetName="A1_5" />
       <config projectName="CompSci30S" targetName="A2_4" />
-      <config projectName="CompSci30S" targetName="A3_3" />
+      <config projectName="CompSci30S" targetName="A3_4" />
+      <config projectName="CompSci30S" targetName="A4_3" />
       <config projectName="CompSci30S" targetName="A1_6" />
       <config projectName="CompSci30S" targetName="A2_5" />
-      <config projectName="CompSci30S" targetName="A3_4" />
       <config projectName="CompSci30S" targetName="A1_1" />
       <config projectName="CompSci30S" targetName="A1_2" />
       <config projectName="CompSci30S" targetName="A2_1" />
@@ -40,19 +46,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b586beda-eb07-4210-b72b-855224b4f343" name="Changes" comment="New changelist">
-      <change afterPath="$PROJECT_DIR$/Assignment 3/1.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment 3/2.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment 3/3.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment 3/4.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment 3/5.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment 3/6.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment 3/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment 3/bartlett.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment 3/player.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment 4/1.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment 4/2.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment 4/3.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment 4/4.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment 4/5.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment 4/6.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment 4/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment 4/bartlett.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment 4/player.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wakanda.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/CompSci30S.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CompSci30S.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment 2/4.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 2/4.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment 2/5.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 2/5.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment 3/2.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 3/2.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment 3/3.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 3/3.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment 3/4.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 3/4.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment 3/5.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 3/5.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment 3/6.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 3/6.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment 3/bartlett.h" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 3/bartlett.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
     </list>
     <list id="688c50ea-75e9-4ce7-82c9-0f06ce74f24c" name="Old" comment="" />
@@ -66,6 +80,13 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug-MinGW" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="SYNC" />
@@ -104,6 +125,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "CMake Application.1.executor": "Run",
     "CMake Application.2.executor": "Run",
     "CMake Application.A2_1.executor": "Run",
@@ -115,6 +137,8 @@
     "CMake Application.A3_4.executor": "Run",
     "CMake Application.A3_5.executor": "Run",
     "CMake Application.A3_6.executor": "Run",
+    "CMake Application.A4_1.executor": "Debug",
+    "CMake Application.A4_2.executor": "Run",
     "CMake Debug.A1.executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.RadMigrateCodeStyle": "true",
@@ -128,13 +152,13 @@
     "cidr.known.project.marker": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/evanb/CLionProjects/CompSci30S/CMakeLists.txt",
+    "last_opened_file_path": "C:/Users/evanb/CLionProjects/CompSci30S",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.keymap",
+    "settings.editor.selected.configurable": "editing.templates",
     "structure.view.defaults.are.configured": "true",
     "vue.rearranger.settings.migration": "true"
   }
@@ -144,66 +168,66 @@
       <recent name="C:\Users\evanb\CLionProjects\CompSci30S" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake Application.A3_5">
+  <component name="RunManager" selected="CMake Application.A4_2">
     <configuration name="A1" type="CMakeListConfigurationType" factoryName="CMakeListConfigurationFactory" temporary="true">
       <method v="2" />
     </configuration>
-    <configuration name="A1_1" type="CMakeRunConfiguration" factoryName="Application" nameIsGenerated="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CompSci30S" TARGET_NAME="A1_1" CONFIG_NAME="Debug-MinGW" RUN_TARGET_PROJECT_NAME="CompSci30S" RUN_TARGET_NAME="A1_1">
+    <configuration name="A1_1" type="CMakeRunConfiguration" factoryName="Application" nameIsGenerated="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="true" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CompSci30S" TARGET_NAME="A1_1" CONFIG_NAME="Debug-MinGW" RUN_TARGET_PROJECT_NAME="CompSci30S" RUN_TARGET_NAME="A1_1">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="A1_2" type="CMakeRunConfiguration" factoryName="Application" nameIsGenerated="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CompSci30S" TARGET_NAME="A1_2" CONFIG_NAME="Debug-MinGW" RUN_TARGET_PROJECT_NAME="CompSci30S" RUN_TARGET_NAME="A1_2">
+    <configuration name="A1_2" type="CMakeRunConfiguration" factoryName="Application" nameIsGenerated="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="true" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CompSci30S" TARGET_NAME="A1_2" CONFIG_NAME="Debug-MinGW" RUN_TARGET_PROJECT_NAME="CompSci30S" RUN_TARGET_NAME="A1_2">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="A1_3" type="CMakeRunConfiguration" factoryName="Application" nameIsGenerated="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CompSci30S" TARGET_NAME="A1_3" CONFIG_NAME="Debug-MinGW" RUN_TARGET_PROJECT_NAME="CompSci30S" RUN_TARGET_NAME="A1_3">
+    <configuration name="A1_3" type="CMakeRunConfiguration" factoryName="Application" nameIsGenerated="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="true" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CompSci30S" TARGET_NAME="A1_3" CONFIG_NAME="Debug-MinGW" RUN_TARGET_PROJECT_NAME="CompSci30S" RUN_TARGET_NAME="A1_3">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="A1_4" type="CMakeRunConfiguration" factoryName="Application" nameIsGenerated="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CompSci30S" TARGET_NAME="A1_4" CONFIG_NAME="Debug-MinGW" RUN_TARGET_PROJECT_NAME="CompSci30S" RUN_TARGET_NAME="A1_4">
+    <configuration name="A1_4" type="CMakeRunConfiguration" factoryName="Application" nameIsGenerated="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="true" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CompSci30S" TARGET_NAME="A1_4" CONFIG_NAME="Debug-MinGW" RUN_TARGET_PROJECT_NAME="CompSci30S" RUN_TARGET_NAME="A1_4">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="A1_5" type="CMakeRunConfiguration" factoryName="Application" nameIsGenerated="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CompSci30S" TARGET_NAME="A1_5" CONFIG_NAME="Debug-MinGW" RUN_TARGET_PROJECT_NAME="CompSci30S" RUN_TARGET_NAME="A1_5">
+    <configuration name="A1_5" type="CMakeRunConfiguration" factoryName="Application" nameIsGenerated="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="true" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CompSci30S" TARGET_NAME="A1_5" CONFIG_NAME="Debug-MinGW" RUN_TARGET_PROJECT_NAME="CompSci30S" RUN_TARGET_NAME="A1_5">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="A1_6" type="CMakeRunConfiguration" factoryName="Application" nameIsGenerated="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CompSci30S" TARGET_NAME="A1_6" CONFIG_NAME="Debug-MinGW" RUN_TARGET_PROJECT_NAME="CompSci30S" RUN_TARGET_NAME="A1_6">
+    <configuration name="A1_6" type="CMakeRunConfiguration" factoryName="Application" nameIsGenerated="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="true" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CompSci30S" TARGET_NAME="A1_6" CONFIG_NAME="Debug-MinGW" RUN_TARGET_PROJECT_NAME="CompSci30S" RUN_TARGET_NAME="A1_6">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="A2_1" type="CMakeRunConfiguration" factoryName="Application" nameIsGenerated="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CompSci30S" TARGET_NAME="A2_1" CONFIG_NAME="Debug-MinGW" RUN_TARGET_PROJECT_NAME="CompSci30S" RUN_TARGET_NAME="A2_1">
+    <configuration name="A2_1" type="CMakeRunConfiguration" factoryName="Application" nameIsGenerated="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="true" EMULATE_TERMINAL="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CompSci30S" TARGET_NAME="A2_1" CONFIG_NAME="Debug-MinGW" RUN_TARGET_PROJECT_NAME="CompSci30S" RUN_TARGET_NAME="A2_1">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="A2_2" type="CMakeRunConfiguration" factoryName="Application" nameIsGenerated="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CompSci30S" TARGET_NAME="A2_2" CONFIG_NAME="Debug-MinGW" RUN_TARGET_PROJECT_NAME="CompSci30S" RUN_TARGET_NAME="A2_2">
+    <configuration name="A2_2" type="CMakeRunConfiguration" factoryName="Application" nameIsGenerated="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="true" EMULATE_TERMINAL="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CompSci30S" TARGET_NAME="A2_2" CONFIG_NAME="Debug-MinGW" RUN_TARGET_PROJECT_NAME="CompSci30S" RUN_TARGET_NAME="A2_2">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="A2_3" type="CMakeRunConfiguration" factoryName="Application" nameIsGenerated="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CompSci30S" TARGET_NAME="A2_3" CONFIG_NAME="Debug-MinGW" RUN_TARGET_PROJECT_NAME="CompSci30S" RUN_TARGET_NAME="A2_3">
+    <configuration name="A2_3" type="CMakeRunConfiguration" factoryName="Application" nameIsGenerated="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="true" EMULATE_TERMINAL="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CompSci30S" TARGET_NAME="A2_3" CONFIG_NAME="Debug-MinGW" RUN_TARGET_PROJECT_NAME="CompSci30S" RUN_TARGET_NAME="A2_3">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="A2_4" type="CMakeRunConfiguration" factoryName="Application" nameIsGenerated="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CompSci30S" TARGET_NAME="A2_4" CONFIG_NAME="Debug-MinGW" RUN_TARGET_PROJECT_NAME="CompSci30S" RUN_TARGET_NAME="A2_4">
+    <configuration name="A2_4" type="CMakeRunConfiguration" factoryName="Application" nameIsGenerated="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="true" EMULATE_TERMINAL="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CompSci30S" TARGET_NAME="A2_4" CONFIG_NAME="Debug-MinGW" RUN_TARGET_PROJECT_NAME="CompSci30S" RUN_TARGET_NAME="A2_4">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="A2_5" type="CMakeRunConfiguration" factoryName="Application" nameIsGenerated="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CompSci30S" TARGET_NAME="A2_5" CONFIG_NAME="Debug-MinGW" RUN_TARGET_PROJECT_NAME="CompSci30S" RUN_TARGET_NAME="A2_5">
+    <configuration name="A2_5" type="CMakeRunConfiguration" factoryName="Application" nameIsGenerated="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="true" EMULATE_TERMINAL="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CompSci30S" TARGET_NAME="A2_5" CONFIG_NAME="Debug-MinGW" RUN_TARGET_PROJECT_NAME="CompSci30S" RUN_TARGET_NAME="A2_5">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="A2_6" type="CMakeRunConfiguration" factoryName="Application" nameIsGenerated="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CompSci30S" TARGET_NAME="A2_6" CONFIG_NAME="Debug-MinGW" RUN_TARGET_PROJECT_NAME="CompSci30S" RUN_TARGET_NAME="A2_6">
+    <configuration name="A2_6" type="CMakeRunConfiguration" factoryName="Application" nameIsGenerated="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="true" EMULATE_TERMINAL="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CompSci30S" TARGET_NAME="A2_6" CONFIG_NAME="Debug-MinGW" RUN_TARGET_PROJECT_NAME="CompSci30S" RUN_TARGET_NAME="A2_6">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -238,6 +262,41 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="A4_1" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="true" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CompSci30S" TARGET_NAME="A4_1" CONFIG_NAME="Debug-MinGW" RUN_TARGET_PROJECT_NAME="CompSci30S" RUN_TARGET_NAME="A4_1">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="A4_2" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="true" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CompSci30S" TARGET_NAME="A4_2" CONFIG_NAME="Debug-MinGW" RUN_TARGET_PROJECT_NAME="CompSci30S" RUN_TARGET_NAME="A4_2">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="A4_3" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="true" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CompSci30S" TARGET_NAME="A4_3" CONFIG_NAME="Debug-MinGW" RUN_TARGET_PROJECT_NAME="CompSci30S" RUN_TARGET_NAME="A4_3">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="A4_4" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="true" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CompSci30S" TARGET_NAME="A4_4" CONFIG_NAME="Debug-MinGW" RUN_TARGET_PROJECT_NAME="CompSci30S" RUN_TARGET_NAME="A4_4">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="A4_5" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="true" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CompSci30S" TARGET_NAME="A4_5" CONFIG_NAME="Debug-MinGW" RUN_TARGET_PROJECT_NAME="CompSci30S" RUN_TARGET_NAME="A4_5">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="A4_6" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="true" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CompSci30S" TARGET_NAME="A4_6" CONFIG_NAME="Debug-MinGW" RUN_TARGET_PROJECT_NAME="CompSci30S" RUN_TARGET_NAME="A4_6">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="true" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="CMake Application.A1_1" />
       <item itemvalue="CMake Application.A1_2" />
@@ -257,8 +316,19 @@
       <item itemvalue="CMake Application.A3_4" />
       <item itemvalue="CMake Application.A3_5" />
       <item itemvalue="CMake Application.A3_6" />
+      <item itemvalue="CMake Application.A4_1" />
+      <item itemvalue="CMake Application.A4_2" />
+      <item itemvalue="CMake Application.A4_3" />
+      <item itemvalue="CMake Application.A4_4" />
+      <item itemvalue="CMake Application.A4_5" />
+      <item itemvalue="CMake Application.A4_6" />
       <item itemvalue="CMake Debug.A1" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="CMake Debug.A1" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -289,6 +359,15 @@
       <workItem from="1715614602440" duration="9658000" />
       <workItem from="1715695552495" duration="13457000" />
       <workItem from="1715797350651" duration="8787000" />
+      <workItem from="1716320138518" duration="12609000" />
+      <workItem from="1716409167848" duration="4344000" />
+      <workItem from="1716579166498" duration="4147000" />
+      <workItem from="1717003629375" duration="6195000" />
+      <workItem from="1717173148801" duration="2777000" />
+      <workItem from="1717424182078" duration="12990000" />
+      <workItem from="1717603690736" duration="483000" />
+      <workItem from="1717606206992" duration="152000" />
+      <workItem from="1717702796910" duration="17566000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed workspace.xml">
       <option name="closed" value="true" />
@@ -384,8 +463,18 @@
           <line>59</line>
           <option name="timeStamp" value="18" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Assignment 4/bartlett.h</url>
+          <line>173</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="CMakeRunConfiguration">
+        <watch expression="*left &gt; *right" language="ObjectiveC" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -46,28 +46,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b586beda-eb07-4210-b72b-855224b4f343" name="Changes" comment="New changelist">
-      <change afterPath="$PROJECT_DIR$/Assignment 4/1.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment 4/2.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment 4/3.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment 4/4.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment 4/5.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment 4/6.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment 4/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment 4/bartlett.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment 4/player.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wakanda.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/CompSci30S.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CompSci30S.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment 3/2.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 3/2.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment 3/3.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 3/3.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment 3/4.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 3/4.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment 3/5.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 3/5.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment 3/6.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 3/6.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment 3/bartlett.h" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 3/bartlett.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment 3/1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 3/1.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment 3/player.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment 4/3.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 4/3.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment 4/bartlett.h" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment 4/bartlett.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment 4/player.h" beforeDir="false" />
     </list>
     <list id="688c50ea-75e9-4ce7-82c9-0f06ce74f24c" name="Old" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -123,52 +108,53 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "CMake Application.1.executor": "Run",
-    "CMake Application.2.executor": "Run",
-    "CMake Application.A2_1.executor": "Run",
-    "CMake Application.A2_2.executor": "Run",
-    "CMake Application.A2_3.executor": "Run",
-    "CMake Application.A3_1.executor": "Run",
-    "CMake Application.A3_2.executor": "Run",
-    "CMake Application.A3_3.executor": "Run",
-    "CMake Application.A3_4.executor": "Run",
-    "CMake Application.A3_5.executor": "Run",
-    "CMake Application.A3_6.executor": "Run",
-    "CMake Application.A4_1.executor": "Debug",
-    "CMake Application.A4_2.executor": "Run",
-    "CMake Debug.A1.executor": "Debug",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.RadMigrateCodeStyle": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "RunOnceActivity.readMode.enableVisualFormatting": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "cf.advertisement.text.overridden": "true",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/evanb/CLionProjects/CompSci30S",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "editing.templates",
-    "structure.view.defaults.are.configured": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;CMake Application.1.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.2.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.A2_1.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.A2_2.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.A2_3.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.A3_1.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.A3_2.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.A3_3.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.A3_4.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.A3_5.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.A3_6.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.A4_1.executor&quot;: &quot;Debug&quot;,
+    &quot;CMake Application.A4_2.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.A4_3.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Debug.A1.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.RadMigrateCodeStyle&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;cf.advertisement.text.overridden&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/evanb/CLionProjects/CompSci30S&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;,
+    &quot;structure.view.defaults.are.configured&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\evanb\CLionProjects\CompSci30S" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake Application.A4_2">
+  <component name="RunManager" selected="CMake Application.A4_3">
     <configuration name="A1" type="CMakeListConfigurationType" factoryName="CMakeListConfigurationFactory" temporary="true">
       <method v="2" />
     </configuration>
@@ -367,7 +353,9 @@
       <workItem from="1717424182078" duration="12990000" />
       <workItem from="1717603690736" duration="483000" />
       <workItem from="1717606206992" duration="152000" />
-      <workItem from="1717702796910" duration="17566000" />
+      <workItem from="1717702796910" duration="25867000" />
+      <workItem from="1718307659675" duration="110000" />
+      <workItem from="1718420157896" duration="384000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed workspace.xml">
       <option name="closed" value="true" />

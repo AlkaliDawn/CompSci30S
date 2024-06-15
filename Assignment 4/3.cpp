@@ -9,20 +9,28 @@
 using dataType = long int;
 using namespace std;
 
-enum SortAlg : uint8_t {
-    InsertA, InsertD, BubbleA, BubbleD, QuickA, QuickD
+using SortAlg = enum {
+    Insert, Bubble, Quick
+};
+
+using SortDirection = enum {
+    Ascending, Descending
 };
 
 enum SearchAlg : uint8_t {
     Binary, Linear
 };
 
-bool isSorted(const vector<dataType> & data);
+void enterData(vector<dataType> & data);
+bool isSorted(const vector<dataType> & data, SortDirection & direction);
 
 void invert(vector<dataType> & data);
 
-bool sort(vector<dataType> & data, SortAlg sortType);
+bool sort(vector<dataType> & data, SortAlg sortType, SortDirection direction);
+
 optional<size_t> search(vector<dataType> & data, SearchAlg searchType);
+
+void print(const vector<dataType> & data, bool sorted);
 
 size_t binarySearch(const vector<dataType> & data, dataType key);
 size_t linearSearch(const vector<dataType> & data, dataType key);
@@ -39,11 +47,49 @@ int main() {
     bool sorted = true;
     
     char input;
+    SortAlg sortType;
+    SortDirection direction = Ascending;
+    SearchAlg searchType;
     
-    printf("There are currently {} {} data points,Do you want to (S)earch, (O)rder, or (E)nter Data?", data.size(), (sorted ? "sorted" : "unsorted"));
-    input;
-    
-    
+    while (true) {
+        printf("There are currently %zu %s data points, Do you want to (S)earch, (O)rder, or (E)nter Data? > ", data.size(), (sorted ? "sorted" : "unsorted"));
+        input = get("soe");
+        switch (input) {
+            case 'o':
+                cout << "Do you want to use (I)nsertion, (B)ubble, or (Q)uick Sort? > ";
+                input = get("ibq");
+                switch (input) {
+                    case 'i':
+                        sortType = Insert;
+                    case 'b':
+                        sortType = Bubble;
+                    case 'q':
+                        sortType = Quick;
+                }
+                cout << "Do you want to sort (A)scending or (D)escending? > ";
+                input = get("ad");
+                switch (input) {
+                    case 'a':
+                        direction = Ascending;
+                    case 'd':
+                        direction = Descending;
+                }
+                sort(data, sortType, direction);
+                sorted = true;
+            case 's':
+                cout << "Do you want to use (B)inary, or (L)inear search? > ";
+                input = get("bl");
+                switch (input) {
+                    case 'b':
+                    
+                }
+            case 'e':
+                enterData(data);
+                sorted = isSorted(data, direction);
+        }
+        
+        print(data, sorted);
+    }
     cout << "Press any key to exit...";
     _getch();
     return 0;
@@ -54,26 +100,34 @@ bool isSorted(const vector<dataType> & data) {
         return true;
     }
     
+    bool sortedA = true;
+    bool sortedD = true;
+    
+    // check every element in the array, if it is out of order for a sort direction, set the corresponding bool to false
     for (int i = 1; i < data.size(); ++i) {
         if (data[i - 1] > data[i]) {
-            return false;
+            sortedA = false;
+        }
+        if (data[i - 1] < data[i]) {
+            sortedD = false;
         }
     }
     
-    return true;
+    // if the array is sorted in either asc or dec order, return true
+    return sortedD || sortedA;
 }
 
 void invert(vector<dataType> & data) {
-    if (data.size() < 2) {
+    if (data.size() < 2) { // array cannot be inverted
         return;
     }
-    if (data.size() == 2) {
+    if (data.size() == 2) { // special case for size 2 for efficiency
         swap(data[0], data[1]);
         return;
     }
     auto low = data.begin();
     auto high = data.end();
-    while (low <= high) {
+    while (low <= high) { // start at each end and swap until the pointers cross
         swap(*low, *high);
         ++low;
         --high;
@@ -217,3 +271,40 @@ void quickSort(std::vector<dataType> & data) {
     }
     quickSort(data, 0, data.size() - 1);
 }
+
+void print(const vector<dataType> & data, bool sorted) {
+#define RED "\033[38;2;240;6;10m"
+#define GREEN "\033[38;2;0;153;51m"
+    if (!sorted) {
+        for (dataType datum: data) {
+            cout << datum << ", ";
+        }
+        cout << endl;
+    }
+    else {
+        for (size_t i = 0; i < data.size(); ++i) {
+            int min = data.back();
+            int max = data.front();
+            const int rgb_max = 255;
+            
+            string color = "\033[38;2;";
+            
+            color.append(to_string(static_cast<int>(lerp(0, rgb_max, static_cast<double>(i) / static_cast<double>(data.size() - 1)))));
+            color.append(";");
+            color.append(to_string(static_cast<int>(lerp(rgb_max, 0, static_cast<double>(i) / static_cast<double>(data.size() - 1)))));
+            color.append(";31m");
+            cout << format("{}{}{},", color, data[i], RESET);
+        }
+    }
+}
+
+void enterData(vector<dataType> & data) {
+    cout << format("Please enter the number of values to be inputted. There are currently {} values stored. -> ", data.size());
+    size_t numValues = getNum<size_t>();
+    cout << "\n";
+    for (size_t i = 0; i < numValues; i++) {
+        cout << format("Enter value #{}: ", i + 1);
+        data.push_back(getNum<dataType>());
+    }
+}
+
